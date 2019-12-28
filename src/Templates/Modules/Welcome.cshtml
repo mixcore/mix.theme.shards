@@ -1,0 +1,78 @@
+@{
+    string assetFolder = MixCmsHelper.GetAssetFolder(ViewBag.culture);
+    var social = MixCmsHelper.GetModule("social", ViewBag.culture);
+    var navs = await MixCmsHelper.GetNavigation("top", ViewBag.culture, Url);
+}
+<!-- Welcome Section -->
+  <div class="welcome d-flex justify-content-center flex-column"
+    style="background-image: url(@Model.ImageUrl);">
+    <div class="container">
+      <div id="particles-js" class="position-absolute w-100 h-100"></div>
+      <!-- Navigation -->
+      <nav class="navbar navbar-expand-lg navbar-dark pt-4 px-0">
+        <a class="navbar-brand" href="#">
+          <img src="@assetFolder/assets/images/agency-landing/shards-logo-white.svg" class="mr-2" alt="Shards - Agency Landing Page">
+          Mixcore Agency
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            @if(navs!=null){
+              @foreach(var item in navs.MenuItems){                
+                item.Classes += item.IsActive ? " active": "";
+                if(item.MenuItems.Count>0){
+                  
+                  <li class="nav-item dropdown @item.Classes">
+                    <a class="nav-link dropdown-toggle" href="@item.Uri" target="@item.Target" 
+                      id="dropdown-top-@navs.MenuItems.IndexOf(item)" data-toggle="dropdown"
+                      aria-haspopup="true" aria-expanded="false">@item.Title</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdown-top-@navs.MenuItems.IndexOf(item)">
+                      @foreach(var sub_item in item.MenuItems){
+                        sub_item.Classes += sub_item.IsActive ? " active": "";
+                        <a class="dropdown-item @sub_item.Classes" href="@sub_item.Uri" target="@sub_item.Target">@sub_item.Title</a>
+                      }                      
+                    </div>
+                  </li>
+                    
+                }
+                else{
+                  <li class="nav-item @item.Classes">
+                    <a class="nav-link" href="@item.Uri" target="@item.Target">@item.Title</a>
+                  </li>
+                }
+              }
+            }            
+          </ul>
+          
+          <ul class="navbar-nav ml-auto">
+            @if(social!=null){
+              foreach(var item in social.Data.Items)
+              {
+                <li class="nav-item">
+                  <a class="nav-link" href="@(item.Property("uri"))"><i class="@(item.Property("icon"))"></i></a>
+                </li>
+              }
+            }           
+          </ul>
+          <language-switcher></language-switcher>
+        </div>
+      </nav>
+      <!-- / Navigation -->
+    </div> <!-- .container -->
+
+    <!-- Inner Wrapper -->
+    <div class="inner-wrapper mt-auto mb-auto container">
+      <div class="row">
+        <div class="col-md-7">
+          <h1 class="welcome-heading display-4 text-white">@Html.Raw(Model.Property<string>("title"))</h1>
+          <p class="text-white">@(Model.Property<string>("excerpt"))</p>
+          <a href="@(Model.Property<string>("uri"))" class="btn btn-lg btn-outline-white btn-pill align-self-center">Learn More</a>
+        </div>
+      </div>
+    </div>
+    <!-- / Inner Wrapper -->
+  </div>
+  <!-- / Welcome Section -->

@@ -1,0 +1,44 @@
+@model Mix.Cms.Lib.ViewModels.MixPosts.ReadMvcViewModel
+@{
+    var assetFolder = MixCmsHelper.GetAssetFolder(ViewBag.culture);
+}
+<!-- Welcome Section -->
+<div class="blog-header d-flex justify-content-center flex-column"
+style="background-image: url(@assetFolder/assets/images/agency-landing/2927262.jpg);">
+<div class="container">
+    <div id="particles-js" class="position-absolute w-100 h-100"></div>
+    <!-- Navigation -->
+    <partial name="../Widgets/Navigation.cshtml"/>
+    <!-- / Navigation -->
+</div> <!-- .container -->
+
+<!-- Inner Wrapper -->
+<div class="inner-wrapper mt-auto mb-auto container">
+    <div class="row">
+    <div class="col-md-7">
+        <h1 class="welcome-heading display-5 text-white">@Model.Title</h1>
+        <p class="text-white">By @Model.CreatedBy on @Model.CreatedDateTime.ToLocalTime().ToString("MMM dd yyyy")</p>
+        <!-- <a href="#our-services" class="btn btn-lg btn-outline-white btn-pill align-self-center">Learn More</a> -->
+    </div>
+    </div>
+</div>
+<!-- / Inner Wrapper -->
+</div>
+<!-- / Welcome Section -->
+
+<!-- Our Services Section -->
+<div id="our-services" class="section py-4">
+<!-- <h3 class="section-title text-center my-5">
+    UI Frameworks Review: Vue.js vs React in 2019
+    </h3> -->
+
+<div class="article-content container">
+    <div class="squeezed wrapper">
+    <div class="inner-content">
+        @Html.Raw(Model.Content)
+    </div>
+</div>
+</div>
+<!-- / Our Services Section -->
+
+<partial name="../Widgets/_Related_Posts.cshtml" model="@Model"/>

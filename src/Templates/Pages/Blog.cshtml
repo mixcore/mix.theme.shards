@@ -1,0 +1,74 @@
+@model Mix.Cms.Lib.ViewModels.MixPages.ReadMvcViewModel
+@{
+    string assetFolder = MixCmsHelper.GetAssetFolder(ViewBag.culture);
+    string culture = ViewBag.culture;
+    var social = MixCmsHelper.GetModule("Social", ViewBag.culture);
+    ViewData["DetailsUrl"] = Model.DetailsUrl;
+    var cates = await MixCmsHelper.GetNavigation("blog_categories", ViewBag.culture, Url);
+}
+<!-- Welcome Section -->
+  <div class="blog-header d-flex justify-content-center flex-column"
+    style="background-image: url(@assetFolder/assets/images/agency-landing/2927262.jpg);">
+    <div class="container">
+      <div id="particles-js" class="position-absolute w-100 h-100"></div>
+      <!-- Navigation -->
+      <partial name="../Widgets/Navigation.cshtml" />
+      <!-- / Navigation -->
+    </div> <!-- .container -->
+
+    <!-- Inner Wrapper -->
+    <div class="inner-wrapper mt-auto mb-auto container">
+      <div class="row">
+        <div class="col-md-7">
+          <h1 class="welcome-heading display-4 text-white">@(Model.Property<string>("title"))</h1>
+          <p class="text-white">@(Model.Property<string>("excerpt"))</p>
+          <!-- <a href="#our-services" class="btn btn-lg btn-outline-white btn-pill align-self-center">Learn More</a> -->
+        </div>
+      </div>
+    </div>
+    <!-- / Inner Wrapper -->
+  </div>
+  <!-- / Welcome Section -->
+
+
+  <!-- Our Blog Section -->
+  <div class="blog section section-invert py-4">
+    <h3 class="section-title text-center m-5">Latest Posts</h3>
+
+    <div class="container">
+      <div class="py-0">
+        @if(cates != null && cates.MenuItems !=null){
+          
+        <div class="row mb-5">
+          <div class="col text-center">
+            @foreach(var item in cates.MenuItems){
+              <a href="@item.Uri" class="btn btn-light btn-pill btn-sm">@item.Title</a>
+            }
+          </div>
+        </div>
+        
+        }
+        <div class="row mb-4">
+          <div class="card-deck">
+            @foreach(var nav in Model.Posts.Items)
+            {
+              var post = nav.Post;
+              <div class="col-md-12 col-lg-4">
+                <div class="card mb-4">
+                  <img class="card-img-top" src="@(post.ImageUrl ?? "/assets/img/image_placeholder.jpg")" alt="Card image cap">
+                  <div class="card-body">
+                    <h4 class="card-title">@post.Title</h4>
+                    <p class="card-text">@post.Excerpt</p>
+                    <a class="btn btn-primary btn-pill" href="@post.DetailsUrl">Read More &rarr;</a>
+                  </div>
+                </div>
+              </div>
+            }            
+          </div>
+        </div>        
+      </div>
+
+      <partial name="../Widgets/_Pagination.cshtml" model="@Model.Posts"/>
+    </div>
+  </div>
+  <!-- / Our Blog Section -->

@@ -1,0 +1,21 @@
+@model  Mix.Cms.Lib.ViewModels.MixModules.ReadMvcViewModel
+<!-- Testimonials Section -->
+  <div class="testimonials section py-4">
+    <h3 class="section-title text-center m-5">Testimonials</h3>
+    <div class="container py-5">
+      <div class="row">
+        @foreach (var item in Model.Data.Items.Take(3))
+        {
+        <div class="col-md-4 testimonial text-center">
+          <div class="avatar rounded-circle with-shadows mb-3 ml-auto mr-auto">
+            <img src="@(item.Property("image"))" class="w-100" alt="Testimonial Avatar" />
+          </div>
+          <h5 class="mb-1">@(item.Property("name"))</h5>
+          <span class="text-muted d-block mb-2">@(item.Property("job_title"))</span>
+          <p>@(item.Property("description"))</p>
+        </div>
+        }
+      </div>
+    </div>
+  </div>
+  <!-- / Testimonials Section -->
