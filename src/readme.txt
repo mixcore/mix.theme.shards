@@ -1,0 +1,45 @@
+=== Mixcore Agency ===
+Contributors: the Mixcore team
+Tested up to: 1.0.0
+Stable tag: 1.0.0
+License: MIT or later
+License URI: https://opensource.org/licenses/MIT
+
+Default theme for 2020.
+
+== Description ==
+
+Our default theme for 2020 is designed to take full advantage of the 
+flexibility of the Mixcore CMS. Organizations and businesses have the 
+ability to create dynamic landing pages with endless layouts & features.
+
+== Changelog ==
+
+= 1.0 =
+* Released: Jan 30, 2020
+
+Initial release
+
+== Copyright ==
+
+MIT License
+
+Copyright (c) 2019 mixcore
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
