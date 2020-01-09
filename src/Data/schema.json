@@ -1,0 +1,4257 @@
+{
+  "pages": [
+    {
+      "id": 1,
+      "template": "Pages/_Modules.cshtml",
+      "thumbnail": null,
+      "image": "assets/img/bgs/home.jpeg",
+      "icon": null,
+      "cssClass": null,
+      "layout": "Masters/_Layout",
+      "title": "Home",
+      "excerpt": null,
+      "content": null,
+      "seoName": "home",
+      "seoTitle": "home",
+      "seoDescription": "home",
+      "seoKeywords": "home",
+      "source": null,
+      "views": null,
+      "type": 3,
+      "status": 2,
+      "createdDateTime": "2019-07-13T01:09:08.05",
+      "updatedDateTime": null,
+      "createdBy": "admin",
+      "tags": null,
+      "staticUrl": null,
+      "level": 0,
+      "lastModified": "2020-01-02T07:20:34.633",
+      "modifiedBy": null,
+      "pageSize": null,
+      "moduleNavs": [
+        {
+          "moduleId": 1,
+          "pageId": 1,
+          "isActived": false,
+          "image": "assets/img/image_placeholder.jpg",
+          "description": "Testimonials",
+          "module": {
+            "id": 1,
+            "name": "testimonials",
+            "image": "assets/img/image_placeholder.jpg",
+            "thumbnail": "/assets/img/image_placeholder.jpg",
+            "template": "Modules/Testimonial-3.cshtml",
+            "formTemplate": "Forms/_Default.cshtml",
+            "edmTemplate": "Edms/_Default.cshtml",
+            "title": "Testimonials",
+            "description": null,
+            "fields": "[{\"name\":\"image\",\"title\":\"Image\",\"defaultValue\":null,\"options\":[],\"priority\":0,\"dataType\":16,\"isUnique\":false,\"isRequired\":true,\"isDisplay\":true,\"isSelect\":false,\"isGroupBy\":false,\"width\":3},{\"name\":\"name\",\"title\":\"Name\",\"defaultValue\":null,\"options\":[],\"priority\":0,\"dataType\":7,\"isUnique\":false,\"isRequired\":false,\"isDisplay\":true,\"isSelect\":false,\"isGroupBy\":false,\"width\":3},{\"name\":\"title\",\"title\":\"Title\",\"defaultValue\":null,\"options\":[],\"priority\":0,\"dataType\":7,\"isUnique\":false,\"isRequired\":false,\"isDisplay\":true,\"isSelect\":false,\"isGroupBy\":false,\"width\":3},{\"name\":\"description\",\"title\":\"Description\",\"defaultValue\":null,\"options\":[],\"priority\":0,\"dataType\":9,\"isUnique\":false,\"isRequired\":false,\"isDisplay\":false,\"isSelect\":false,\"isGroupBy\":false,\"width\":3}]",
+            "type": 1,
+            "status": 2,
+            "pageSize": 9,
+            "lastModified": "2019-12-21T07:13:07.11",
+            "createdDateTime": "2019-12-21T07:13:07.11",
+            "createdBy": null,
+            "modifiedBy": null,
+            "data": {
+              "items": [
+                {
+                  "id": "378be2f6-60f9-4e17-9208-1f9e77061fd0",
+                  "moduleId": 1,
+                  "postId": null,
+                  "productId": null,
+                  "pageId": null,
+                  "createdDateTime": "2019-12-21T07:13:07.253",
+                  "updatedDateTime": "2019-12-21T07:13:07.26",
+                  "dataProperties": [
+                    {
+                      "name": "image",
+                      "title": "Image",
+                      "isUnique": false,
+                      "isRequired": true,
+                      "dataType": 16,
+                      "value": null,
+                      "isDisplay": true,
+                      "isSelect": false,
+                      "isGroupBy": false,
+                      "options": []
+                    },
+                    {
+                      "name": "name",
+                      "title": "Name",
+                      "isUnique": false,
+                      "isRequired": false,
+                      "dataType": 7,
+                      "value": null,
+                      "isDisplay": true,
+                      "isSelect": false,
+                      "isGroupBy": false,
+                      "options": []
+                    },
+                    {
+                      "name": "title",
+                      "title": "Title",
+                      "isUnique": false,
+                      "isRequired": false,
+                      "dataType": 7,
+                      "value": null,
+                      "isDisplay": true,
+                      "isSelect": false,
+                      "isGroupBy": false,
+                      "options": []
+                    },
+                    {
+                      "name": "description",
+                      "title": "Description",
+                      "isUnique": false,
+                      "isRequired": false,
+                      "dataType": 9,
+                      "value": null,
+                      "isDisplay": false,
+                      "isSelect": false,
+                      "isGroupBy": false,
+                      "options": []
+                    }
+                  ],
+                  "jItem": {
+                    "image": {
+                      "dataType": 16,
+                      "value": "/assets/img/michael.jpg"
+                    },
+                    "name": {
+                      "dataType": 7,
+                      "value": "Dylan Wyatt"
+                    },
+                    "title": {
+                      "dataType": 7,
+                      "value": "Conservation Scientist"
+                    },
+                    "description": {
+                      "dataType": 9,
+                      "value": "There is only one corner of the universe you can be certain of improving, and that's your own self..."
+                    }
+                  },
+                  "isClone": false,
+                  "cultures": null,
+                  "priority": 0,
+                  "specificulture": "en-us"
+                },
+                {
+                  "id": "deb9a776-145b-4add-b868-c4ee0bf9722a",
+                  "moduleId": 1,
+                  "postId": null,
+                  "productId": null,
+                  "pageId": null,
+                  "createdDateTime": "2019-12-21T07:13:07.387",
+                  "updatedDateTime": "2019-12-21T07:13:07.387",
+                  "dataProperties": [
+                    {
+                      "name": "image",
+                      "title": "Image",
+                      "isUnique": false,
+                      "isRequired": true,
+                      "dataType": 16,
+                      "value": null,
+                      "isDisplay": true,
+                      "isSelect": false,
+                      "isGroupBy": false,
+                      "options": []
+                    },
+                    {
+                      "name": "name",
+                      "title": "Name",
+                      "isUnique": false,
+                      "isRequired": false,
+                      "dataType": 7,
+                      "value": null,
+                      "isDisplay": true,
+                      "isSelect": false,
+                      "isGroupBy": false,
+                      "options": []
+                    },
+                    {
+                      "name": "title",
+                      "title": "Title",
+                      "isUnique": false,
+                      "isRequired": false,
+                      "dataType": 7,
+                      "value": null,
+                      "isDisplay": true,
+                      "isSelect": false,
+                      "isGroupBy": false,
+                      "options": []
+                    },
+                    {
+                      "name": "description",
+                      "title": "Description",
+                      "isUnique": false,
+                      "isRequired": false,
+                      "dataType": 9,
+                      "value": null,
+                      "isDisplay": false,
+                      "isSelect": false,
+                      "isGroupBy": false,
+                      "options": []
+                    }
+                  ],
+                  "jItem": {
+                    "image": {
+                      "dataType": 16,
+                      "value": "/assets/img/olivia.jpg"
+                    },
+                    "name": {
+                      "dataType": 7,
+                      "value": "Olivia"
+                    },
+                    "title": {
+                      "dataType": 7,
+                      "value": "Designer"
+                    },
+                    "description": {
+                      "dataType": 9,
+                      "value": "Think in the morning. Act in the noon. Eat in the evening. Sleep in the night......"
+                    }
+                  },
+                  "isClone": false,
+                  "cultures": null,
+                  "priority": 0,
+                  "specificulture": "en-us"
+                },
+                {
+                  "id": "ecf9885d-9b64-4057-a53d-74846870eb01",
+                  "moduleId": 1,
+                  "postId": null,
+                  "productId": null,
+                  "pageId": null,
+                  "createdDateTime": "2019-12-21T07:13:07.42",
+                  "updatedDateTime": "2019-12-21T07:13:07.42",
+                  "dataProperties": [
+                    {
+                      "name": "image",
+                      "title": "Image",
+                      "isUnique": false,
+                      "isRequired": true,
+                      "dataType": 16,
+                      "value": null,
+                      "isDisplay": true,
+                      "isSelect": false,
+                      "isGroupBy": false,
+                      "options": []
+                    },
+                    {
+                      "name": "name",
+                      "title": "Name",
+                      "isUnique": false,
+                      "isRequired": false,
+                      "dataType": 7,
+                      "value": null,
+                      "isDisplay": true,
+                      "isSelect": false,
+                      "isGroupBy": false,
+                      "options": []
+                    },
+                    {
+                      "name": "title",
+                      "title": "Title",
+                      "isUnique": false,
+                      "isRequired": false,
+                      "dataType": 7,
+                      "value": null,
+                      "isDisplay": true,
+                      "isSelect": false,
+                      "isGroupBy": false,
+                      "options": []
+                    },
+                    {
+                      "name": "description",
+                      "title": "Description",
+                      "isUnique": false,
+                      "isRequired": false,
+                      "dataType": 9,
+                      "value": null,
+                      "isDisplay": false,
+                      "isSelect": false,
+                      "isGroupBy": false,
+                      "options": []
+                    }
+                  ],
+                  "jItem": {
+                    "image": {
+                      "dataType": 16,
+                      "value": "/assets/img/Emily.jpg"
+                    },
+                    "name": {
+                      "dataType": 7,
+                      "value": "Mila Skylar"
+                    },
+                    "title": {
+                      "dataType": 7,
+                      "value": "Architect"
+                    },
+                    "description": {
+                      "dataType": 9,
+                      "value": "Love cures people - both the ones who give it and the ones who receive it..."
+                    }
+                  },
+                  "isClone": false,
+                  "cultures": null,
+                  "priority": 0,
+                  "specificulture": "en-us"
+                },
+                {
+                  "id": "f2a12f34-2c86-4869-b5bc-c9880c30a0b9",
+                  "moduleId": 1,
+                  "postId": null,
+                  "productId": null,
+                  "pageId": null,
+                  "createdDateTime": "2019-12-21T07:13:07.457",
+                  "updatedDateTime": "2019-12-21T07:13:07.457",
+                  "dataProperties": [
+                    {
+                      "name": "image",
+                      "title": "Image",
+                      "isUnique": false,
+                      "isRequired": true,
+                      "dataType": 16,
+                      "value": null,
+                      "isDisplay": true,
+                      "isSelect": false,
+                      "isGroupBy": false,
+                      "options": []
+                    },
+                    {
+                      "name": "name",
+                      "title": "Name",
+                      "isUnique": false,
+                      "isRequired": false,
+                      "dataType": 7,
+                      "value": null,
+                      "isDisplay": true,
+                      "isSelect": false,
+                      "isGroupBy": false,
+                      "options": []
+                    },
+                    {
+                      "name": "title",
+                      "title": "Title",
+                      "isUnique": false,
+                      "isRequired": false,
+                      "dataType": 7,
+                      "value": null,
+                      "isDisplay": true,
+                      "isSelect": false,
+                      "isGroupBy": false,
+                      "options": []
+                    },
+                    {
+                      "name": "description",
+                      "title": "Description",
+                      "isUnique": false,
+                      "isRequired": false,
+                      "dataType": 9,
+                      "value": null,
+                      "isDisplay": false,
+                      "isSelect": false,
+                      "isGroupBy": false,
+                      "options": []
+                    }
+                  ],
+                  "jItem": {
+                    "image": {
+                      "dataType": 16,
+                      "value": "/assets/img/james.jpg"
+                    },
+                    "name": {
+                      "dataType": 7,
+                      "value": "Daniel Carter"
+                    },
+                    "title": {
+                      "dataType": 7,
+                      "value": "Aviation Inspector"
+                    },
+                    "description": {
+                      "dataType": 9,
+                      "value": "Keep your face always toward the sunshine - and shadows will fall behind you..."
+                    }
+                  },
+                  "isClone": false,
+                  "cultures": null,
+                  "priority": 0,
+                  "specificulture": "en-us"
+                }
+              ],
+              "jsonItems": [
+                {
+                  "image": {
+                    "dataType": 16,
+                    "value": "/assets/img/michael.jpg"
+                  },
+                  "name": {
+                    "dataType": 7,
+                    "value": "Dylan Wyatt"
+                  },
+                  "title": {
+                    "dataType": 7,
+                    "value": "Conservation Scientist"
+                  },
+                  "description": {
+                    "dataType": 9,
+                    "value": "There is only one corner of the universe you can be certain of improving, and that's your own self..."
+                  }
+                },
+                {
+                  "image": {
+                    "dataType": 16,
+                    "value": "/assets/img/olivia.jpg"
+                  },
+                  "name": {
+                    "dataType": 7,
+                    "value": "Olivia"
+                  },
+                  "title": {
+                    "dataType": 7,
+                    "value": "Designer"
+                  },
+                  "description": {
+                    "dataType": 9,
+                    "value": "Think in the morning. Act in the noon. Eat in the evening. Sleep in the night......"
+                  }
+                },
+                {
+                  "image": {
+                    "dataType": 16,
+                    "value": "/assets/img/Emily.jpg"
+                  },
+                  "name": {
+                    "dataType": 7,
+                    "value": "Mila Skylar"
+                  },
+                  "title": {
+                    "dataType": 7,
+                    "value": "Architect"
+                  },
+                  "description": {
+                    "dataType": 9,
+                    "value": "Love cures people - both the ones who give it and the ones who receive it..."
+                  }
+                },
+                {
+                  "image": {
+                    "dataType": 16,
+                    "value": "/assets/img/james.jpg"
+                  },
+                  "name": {
+                    "dataType": 7,
+                    "value": "Daniel Carter"
+                  },
+                  "title": {
+                    "dataType": 7,
+                    "value": "Aviation Inspector"
+                  },
+                  "description": {
+                    "dataType": 9,
+                    "value": "Keep your face always toward the sunshine - and shadows will fall behind you..."
+                  }
+                }
+              ],
+              "pageIndex": 0,
+              "page": 1,
+              "pageSize": 4,
+              "totalItems": 4,
+              "totalPage": 1
+            },
+            "postId": null,
+            "pageId": 0,
+            "isExportData": true,
+            "isClone": false,
+            "cultures": null,
+            "priority": 10,
+            "specificulture": "en-us"
+          },
+          "isClone": false,
+          "cultures": null,
+          "priority": 8,
+          "specificulture": "en-us"
+        },
+        {
+          "moduleId": 2,
+          "pageId": 1,
+          "isActived": false,
+          "image": "assets/img/image_placeholder.jpg",
+          "description": "Get In Touch",
+          "module": {
+            "id": 2,
+            "name": "get_in_touch",
+            "image": "assets/img/image_placeholder.jpg",
+            "thumbnail": "/assets/img/image_placeholder.jpg",
+            "template": "Modules/Get_In_Touch.cshtml",
+            "formTemplate": "Forms/Get_In_Touch.cshtml",
+            "edmTemplate": "Edms/_Default.cshtml",
+            "title": "Get In Touch",
+            "description": null,
+            "fields": "[{\"name\":\"full_name\",\"title\":\"Full Name\",\"defaultValue\":null,\"options\":[],\"priority\":0,\"dataType\":7,\"isUnique\":false,\"isRequired\":true,\"isDisplay\":true,\"isSelect\":false,\"isGroupBy\":false,\"width\":3},{\"name\":\"email\",\"title\":\"Email\",\"defaultValue\":null,\"options\":[],\"priority\":0,\"dataType\":10,\"isUnique\":false,\"isRequired\":false,\"isDisplay\":false,\"isSelect\":false,\"isGroupBy\":false,\"width\":3},{\"name\":\"phone\",\"title\":\"Phone\",\"defaultValue\":null,\"options\":[],\"priority\":0,\"dataType\":10,\"isUnique\":false,\"isRequired\":false,\"isDisplay\":true,\"isSelect\":false,\"isGroupBy\":false,\"width\":3},{\"name\":\"address\",\"title\":\"Address\",\"defaultValue\":null,\"options\":[],\"priority\":0,\"dataType\":7,\"isUnique\":false,\"isRequired\":false,\"isDisplay\":false,\"isSelect\":false,\"isGroupBy\":false,\"width\":3},{\"name\":\"message\",\"title\":\"Message\",\"defaultValue\":null,\"options\":[],\"priority\":0,\"dataType\":9,\"isUnique\":false,\"isRequired\":true,\"isDisplay\":true,\"isSelect\":false,\"isGroupBy\":false,\"width\":3}]",
+            "type": 1,
+            "status": 2,
+            "pageSize": null,
+            "lastModified": "2019-12-21T07:13:07.64",
+            "createdDateTime": "2019-12-21T07:13:07.64",
+            "createdBy": null,
+            "modifiedBy": null,
+            "data": {
+              "items": [
+                {
+                  "id": "1a29bcce-aaa2-4002-9ae7-71a089e72193",
+                  "moduleId": 2,
+                  "postId": null,
+                  "productId": null,
+                  "pageId": null,
+                  "createdDateTime": "2019-12-24T08:47:54.063",
+                  "updatedDateTime": null,
+                  "dataProperties": [
+                    {
+                      "name": "full_name",
+                      "title": "Full Name",
+                      "isUnique": false,
+                      "isRequired": true,
+                      "dataType": 7,
+                      "value": null,
+                      "isDisplay": true,
+                      "isSelect": false,
+                      "isGroupBy": false,
+                      "options": []
+                    },
+                    {
+                      "name": "email",
+                      "title": "Email",
+                      "isUnique": false,
+                      "isRequired": false,
+                      "dataType": 10,
+                      "value": null,
+                      "isDisplay": false,
+                      "isSelect": false,
+                      "isGroupBy": false,
+                      "options": []
+                    },
+                    {
+                      "name": "phone",
+                      "title": "Phone",
+                      "isUnique": false,
+                      "isRequired": false,
+                      "dataType": 10,
+                      "value": null,
+                      "isDisplay": true,
+                      "isSelect": false,
+                      "isGroupBy": false,
+                      "options": []
+                    },
+                    {
+                      "name": "address",
+                      "title": "Address",
+                      "isUnique": false,
+                      "isRequired": false,
+                      "dataType": 7,
+                      "value": null,
+                      "isDisplay": false,
+                      "isSelect": false,
+                      "isGroupBy": false,
+                      "options": []
+                    },
+                    {
+                      "name": "message",
+                      "title": "Message",
+                      "isUnique": false,
+                      "isRequired": true,
+                      "dataType": 9,
+                      "value": null,
+                      "isDisplay": true,
+                      "isSelect": false,
+                      "isGroupBy": false,
+                      "options": []
+                    }
+                  ],
+                  "jItem": {
+                    "full_name": {
+                      "dataType": 7,
+                      "value": "asdfas"
+                    },
+                    "email": {
+                      "dataType": 10,
+                      "value": "sadfa@adfa.ads"
+                    },
+                    "phone": {
+                      "dataType": 10,
+                      "value": null
+                    },
+                    "address": {
+                      "dataType": 7,
+                      "value": null
+                    },
+                    "message": {
+                      "dataType": 9,
+                      "value": "sadfa"
+                    }
+                  },
+                  "isClone": false,
+                  "cultures": null,
+                  "priority": 0,
+                  "specificulture": "en-us"
+                }
+              ],
+              "jsonItems": [
+                {
+                  "full_name": {
+                    "dataType": 7,
+                    "value": "asdfas"
+                  },
+                  "email": {
+                    "dataType": 10,
+                    "value": "sadfa@adfa.ads"
+                  },
+                  "phone": {
+                    "dataType": 10,
+                    "value": null
+                  },
+                  "address": {
+                    "dataType": 7,
+                    "value": null
+                  },
+                  "message": {
+                    "dataType": 9,
+                    "value": "sadfa"
+                  }
+                }
+              ],
+              "pageIndex": 0,
+              "page": 1,
+              "pageSize": 1,
+              "totalItems": 1,
+              "totalPage": 1
+            },
+            "postId": null,
+            "pageId": 0,
+            "isExportData": true,
+            "isClone": false,
+            "cultures": null,
+            "priority": 13,
+            "specificulture": "en-us"
+          },
+          "isClone": false,
+          "cultures": null,
+          "priority": 9,
+          "specificulture": "en-us"
+        },
+        {
+          "moduleId": 3,
+          "pageId": 1,
+          "isActived": false,
+          "image": "content/templates/mixcore-demo/assets/images/agency-landing/2927262.jpg",
+          "description": "Welcome",
+          "module": {
+            "id": 3,
+            "name": "header",
+            "image": "content/templates/mixcore-demo/assets/images/agency-landing/2927262.jpg",
+            "thumbnail": "/assets/img/bg26.jpg",
+            "template": "Modules/Welcome.cshtml",
+            "formTemplate": "Forms/_Default.cshtml",
+            "edmTemplate": "Edms/_Default.cshtml",
+            "title": "Welcome",
+            "description": "",
+            "fields": "[]",
+            "type": 0,
+            "status": 2,
+            "pageSize": null,
+            "lastModified": "2019-12-21T07:13:07.873",
+            "createdDateTime": "2019-12-21T07:13:07.873",
+            "createdBy": null,
+            "modifiedBy": null,
+            "data": {
+              "items": [],
+              "jsonItems": [],
+              "pageIndex": 0,
+              "page": 1,
+              "pageSize": 0,
+              "totalItems": 0,
+              "totalPage": 1
+            },
+            "postId": null,
+            "pageId": 0,
+            "isExportData": true,
+            "isClone": false,
+            "cultures": null,
+            "priority": 14,
+            "specificulture": "en-us"
+          },
+          "isClone": false,
+          "cultures": null,
+          "priority": 5,
+          "specificulture": "en-us"
+        },
+        {
+          "moduleId": 8,
+          "pageId": 1,
+          "isActived": false,
+          "image": "assets/img/image_placeholder.jpg",
+          "description": "Our Services",
+          "module": {
+            "id": 8,
+            "name": "our_services",
+            "image": "assets/img/image_placeholder.jpg",
+            "thumbnail": "/assets/img/image_placeholder.jpg",
+            "template": "Modules/Services.cshtml",
+            "formTemplate": "Forms/_Default.cshtml",
+            "edmTemplate": "Edms/_Default.cshtml",
+            "title": "Our Services",
+            "description": null,
+            "fields": "[{\"name\":\"title\",\"title\":\"Title\",\"defaultValue\":null,\"options\":[],\"priority\":0,\"dataType\":7,\"isUnique\":false,\"isRequired\":false,\"isDisplay\":true,\"isSelect\":false,\"isGroupBy\":false,\"width\":3},{\"name\":\"description\",\"title\":\"Description\",\"defaultValue\":null,\"options\":[],\"priority\":0,\"dataType\":7,\"isUnique\":false,\"isRequired\":false,\"isDisplay\":true,\"isSelect\":false,\"isGroupBy\":false,\"width\":3},{\"name\":\"icon\",\"title\":\"Icon\",\"defaultValue\":null,\"options\":[],\"priority\":0,\"dataType\":19,\"isUnique\":false,\"isRequired\":false,\"isDisplay\":true,\"isSelect\":false,\"isGroupBy\":false,\"width\":3}]",
+            "type": 1,
+            "status": 2,
+            "pageSize": null,
+            "lastModified": "2019-12-22T10:40:20.853",
+            "createdDateTime": "2019-12-22T10:40:20.853",
+            "createdBy": null,
+            "modifiedBy": null,
+            "data": {
+              "items": [
+                {
+                  "id": "3146e717-5826-44f8-9245-e62b39b39f46",
+                  "moduleId": 8,
+                  "postId": null,
+                  "productId": null,
+                  "pageId": null,
+                  "createdDateTime": "2019-12-27T13:08:44.263",
+                  "updatedDateTime": null,
+                  "dataProperties": [
+                    {
+                      "name": "title",
+                      "title": "Title",
+                      "isUnique": false,
+                      "isRequired": false,
+                      "dataType": 7,
+                      "value": null,
+                      "isDisplay": true,
+                      "isSelect": false,
+                      "isGroupBy": false,
+                      "options": []
+                    },
+                    {
+                      "name": "description",
+                      "title": "Description",
+                      "isUnique": false,
+                      "isRequired": false,
+                      "dataType": 7,
+                      "value": null,
+                      "isDisplay": true,
+                      "isSelect": false,
+                      "isGroupBy": false,
+                      "options": []
+                    },
+                    {
+                      "name": "icon",
+                      "title": "Icon",
+                      "isUnique": false,
+                      "isRequired": false,
+                      "dataType": 19,
+                      "value": null,
+                      "isDisplay": true,
+                      "isSelect": false,
+                      "isGroupBy": false,
+                      "options": []
+                    }
+                  ],
+                  "jItem": {
+                    "title": {
+                      "dataType": 7,
+                      "value": "Training & Support"
+                    },
+                    "description": {
+                      "dataType": 7,
+                      "value": "Quisque mollis mi ac aliquet accumsan. Sed sed dapibus libero. Nullam luctus purus duis sensibus signiferumque."
+                    },
+                    "icon": {
+                      "dataType": 19,
+                      "value": "mi mi-Help"
+                    }
+                  },
+                  "isClone": false,
+                  "cultures": null,
+                  "priority": 0,
+                  "specificulture": "en-us"
+                },
+                {
+                  "id": "49c3c44d-06c1-4cc0-bd84-88039c79468c",
+                  "moduleId": 8,
+                  "postId": null,
+                  "productId": null,
+                  "pageId": null,
+                  "createdDateTime": "2019-12-27T13:08:02.533",
+                  "updatedDateTime": null,
+                  "dataProperties": [
+                    {
+                      "name": "title",
+                      "title": "Title",
+                      "isUnique": false,
+                      "isRequired": false,
+                      "dataType": 7,
+                      "value": null,
+                      "isDisplay": true,
+                      "isSelect": false,
+                      "isGroupBy": false,
+                      "options": []
+                    },
+                    {
+                      "name": "description",
+                      "title": "Description",
+                      "isUnique": false,
+                      "isRequired": false,
+                      "dataType": 7,
+                      "value": null,
+                      "isDisplay": true,
+                      "isSelect": false,
+                      "isGroupBy": false,
+                      "options": []
+                    },
+                    {
+                      "name": "icon",
+                      "title": "Icon",
+                      "isUnique": false,
+                      "isRequired": false,
+                      "dataType": 19,
+                      "value": null,
+                      "isDisplay": true,
+                      "isSelect": false,
+                      "isGroupBy": false,
+                      "options": []
+                    }
+                  ],
+                  "jItem": {
+                    "title": {
+                      "dataType": 7,
+                      "value": "Programming"
+                    },
+                    "description": {
+                      "dataType": 7,
+                      "value": "Quisque mollis mi ac aliquet accumsan. Sed sed dapibus libero. Nullam luctus purus duis sensibus signiferumque."
+                    },
+                    "icon": {
+                      "dataType": 19,
+                      "value": "mi mi-Code"
+                    }
+                  },
+                  "isClone": false,
+                  "cultures": null,
+                  "priority": 0,
+                  "specificulture": "en-us"
+                },
+                {
+                  "id": "8575898f-ae27-47ae-a39e-204291576163",
+                  "moduleId": 8,
+                  "postId": null,
+                  "productId": null,
+                  "pageId": null,
+                  "createdDateTime": "2019-12-27T13:07:38.457",
+                  "updatedDateTime": null,
+                  "dataProperties": [
+                    {
+                      "name": "title",
+                      "title": "Title",
+                      "isUnique": false,
+                      "isRequired": false,
+                      "dataType": 7,
+                      "value": null,
+                      "isDisplay": true,
+                      "isSelect": false,
+                      "isGroupBy": false,
+                      "options": []
+                    },
+                    {
+                      "name": "description",
+                      "title": "Description",
+                      "isUnique": false,
+                      "isRequired": false,
+                      "dataType": 7,
+                      "value": null,
+                      "isDisplay": true,
+                      "isSelect": false,
+                      "isGroupBy": false,
+                      "options": []
+                    },
+                    {
+                      "name": "icon",
+                      "title": "Icon",
+                      "isUnique": false,
+                      "isRequired": false,
+                      "dataType": 19,
+                      "value": null,
+                      "isDisplay": true,
+                      "isSelect": false,
+                      "isGroupBy": false,
+                      "options": []
+                    }
+                  ],
+                  "jItem": {
+                    "title": {
+                      "dataType": 7,
+                      "value": "Design & Branding"
+                    },
+                    "description": {
+                      "dataType": 7,
+                      "value": "Quisque mollis mi ac aliquet accumsan. Sed sed dapibus libero. Nullam luctus purus duis sensibus signiferumque."
+                    },
+                    "icon": {
+                      "dataType": 19,
+                      "value": "mi mi-Design"
+                    }
+                  },
+                  "isClone": false,
+                  "cultures": null,
+                  "priority": 0,
+                  "specificulture": "en-us"
+                },
+                {
+                  "id": "df2dbaad-fa9a-4047-8f74-9a369a392f3e",
+                  "moduleId": 8,
+                  "postId": null,
+                  "productId": null,
+                  "pageId": null,
+                  "createdDateTime": "2019-12-27T13:08:25.28",
+                  "updatedDateTime": null,
+                  "dataProperties": [
+                    {
+                      "name": "title",
+                      "title": "Title",
+                      "isUnique": false,
+                      "isRequired": false,
+                      "dataType": 7,
+                      "value": null,
+                      "isDisplay": true,
+                      "isSelect": false,
+                      "isGroupBy": false,
+                      "options": []
+                    },
+                    {
+                      "name": "description",
+                      "title": "Description",
+                      "isUnique": false,
+                      "isRequired": false,
+                      "dataType": 7,
+                      "value": null,
+                      "isDisplay": true,
+                      "isSelect": false,
+                      "isGroupBy": false,
+                      "options": []
+                    },
+                    {
+                      "name": "icon",
+                      "title": "Icon",
+                      "isUnique": false,
+                      "isRequired": false,
+                      "dataType": 19,
+                      "value": null,
+                      "isDisplay": true,
+                      "isSelect": false,
+                      "isGroupBy": false,
+                      "options": []
+                    }
+                  ],
+                  "jItem": {
+                    "title": {
+                      "dataType": 7,
+                      "value": "Copywriting"
+                    },
+                    "description": {
+                      "dataType": 7,
+                      "value": "Quisque mollis mi ac aliquet accumsan. Sed sed dapibus libero. Nullam luctus purus duis sensibus signiferumque."
+                    },
+                    "icon": {
+                      "dataType": 19,
+                      "value": "mi mi-HWPOverwrite"
+                    }
+                  },
+                  "isClone": false,
+                  "cultures": null,
+                  "priority": 0,
+                  "specificulture": "en-us"
+                }
+              ],
+              "jsonItems": [
+                {
+                  "title": {
+                    "dataType": 7,
+                    "value": "Training & Support"
+                  },
+                  "description": {
+                    "dataType": 7,
+                    "value": "Quisque mollis mi ac aliquet accumsan. Sed sed dapibus libero. Nullam luctus purus duis sensibus signiferumque."
+                  },
+                  "icon": {
+                    "dataType": 19,
+                    "value": "mi mi-Help"
+                  }
+                },
+                {
+                  "title": {
+                    "dataType": 7,
+                    "value": "Programming"
+                  },
+                  "description": {
+                    "dataType": 7,
+                    "value": "Quisque mollis mi ac aliquet accumsan. Sed sed dapibus libero. Nullam luctus purus duis sensibus signiferumque."
+                  },
+                  "icon": {
+                    "dataType": 19,
+                    "value": "mi mi-Code"
+                  }
+                },
+                {
+                  "title": {
+                    "dataType": 7,
+                    "value": "Design & Branding"
+                  },
+                  "description": {
+                    "dataType": 7,
+                    "value": "Quisque mollis mi ac aliquet accumsan. Sed sed dapibus libero. Nullam luctus purus duis sensibus signiferumque."
+                  },
+                  "icon": {
+                    "dataType": 19,
+                    "value": "mi mi-Design"
+                  }
+                },
+                {
+                  "title": {
+                    "dataType": 7,
+                    "value": "Copywriting"
+                  },
+                  "description": {
+                    "dataType": 7,
+                    "value": "Quisque mollis mi ac aliquet accumsan. Sed sed dapibus libero. Nullam luctus purus duis sensibus signiferumque."
+                  },
+                  "icon": {
+                    "dataType": 19,
+                    "value": "mi mi-HWPOverwrite"
+                  }
+                }
+              ],
+              "pageIndex": 0,
+              "page": 1,
+              "pageSize": 4,
+              "totalItems": 4,
+              "totalPage": 1
+            },
+            "postId": null,
+            "pageId": 0,
+            "isExportData": true,
+            "isClone": false,
+            "cultures": null,
+            "priority": 19,
+            "specificulture": "en-us"
+          },
+          "isClone": false,
+          "cultures": null,
+          "priority": 6,
+          "specificulture": "en-us"
+        },
+        {
+          "moduleId": 9,
+          "pageId": 1,
+          "isActived": false,
+          "image": "assets/img/image_placeholder.jpg",
+          "description": "Latest Posts",
+          "module": {
+            "id": 9,
+            "name": "latest_posts",
+            "image": "assets/img/image_placeholder.jpg",
+            "thumbnail": "/assets/img/image_placeholder.jpg",
+            "template": "Modules/Latest_Posts.cshtml",
+            "formTemplate": "Forms/_Default.cshtml",
+            "edmTemplate": "Edms/_Default.cshtml",
+            "title": "Latest Posts",
+            "description": null,
+            "fields": "[]",
+            "type": 2,
+            "status": 2,
+            "pageSize": null,
+            "lastModified": "2019-12-23T06:46:27.82",
+            "createdDateTime": "2019-12-23T06:46:27.82",
+            "createdBy": null,
+            "modifiedBy": null,
+            "data": {
+              "items": [],
+              "jsonItems": [],
+              "pageIndex": 0,
+              "page": 1,
+              "pageSize": 0,
+              "totalItems": 0,
+              "totalPage": 1
+            },
+            "postId": null,
+            "pageId": 0,
+            "isExportData": true,
+            "isClone": false,
+            "cultures": null,
+            "priority": 20,
+            "specificulture": "en-us"
+          },
+          "isClone": false,
+          "cultures": null,
+          "priority": 7,
+          "specificulture": "en-us"
+        }
+      ],
+      "urlAliases": [
+        {
+          "id": 1,
+          "sourceId": "1",
+          "type": 0,
+          "description": null,
+          "status": 2,
+          "alias": "home",
+          "createdDateTime": "2019-12-21T07:12:36.003",
+          "isClone": false,
+          "cultures": [
+            {
+              "id": 1,
+              "specificulture": "en-us",
+              "lcid": null,
+              "alias": null,
+              "fullName": "United States - English",
+              "description": "United States - English",
+              "icon": "flag-icon-us",
+              "isSupported": true
+            }
+          ],
+          "priority": 0,
+          "specificulture": "en-us"
+        }
+      ],
+      "isExportData": true,
+      "isClone": false,
+      "cultures": [
+        {
+          "id": 1,
+          "specificulture": "en-us",
+          "lcid": null,
+          "alias": null,
+          "fullName": "United States - English",
+          "description": "United States - English",
+          "icon": "flag-icon-us",
+          "isSupported": true
+        }
+      ],
+      "priority": 0,
+      "specificulture": "en-us"
+    },
+    {
+      "id": 2,
+      "template": "Pages/_Tag.cshtml",
+      "thumbnail": null,
+      "image": "assets/img/bgs/tag.jpg",
+      "icon": null,
+      "cssClass": null,
+      "layout": "Masters/_Default",
+      "title": "Tag",
+      "excerpt": null,
+      "content": null,
+      "seoName": "tag",
+      "seoTitle": "tag",
+      "seoDescription": "tag",
+      "seoKeywords": "tag",
+      "source": null,
+      "views": null,
+      "type": 8,
+      "status": 2,
+      "createdDateTime": "2019-07-13T01:09:08.167",
+      "updatedDateTime": null,
+      "createdBy": "admin",
+      "tags": null,
+      "staticUrl": null,
+      "level": 0,
+      "lastModified": "2019-07-13T01:41:55.923",
+      "modifiedBy": null,
+      "pageSize": null,
+      "moduleNavs": [],
+      "urlAliases": [
+        {
+          "id": 2,
+          "sourceId": "2",
+          "type": 0,
+          "description": null,
+          "status": 2,
+          "alias": "tag",
+          "createdDateTime": "2019-12-21T07:12:36.073",
+          "isClone": false,
+          "cultures": [
+            {
+              "id": 1,
+              "specificulture": "en-us",
+              "lcid": null,
+              "alias": null,
+              "fullName": "United States - English",
+              "description": "United States - English",
+              "icon": "flag-icon-us",
+              "isSupported": true
+            }
+          ],
+          "priority": 0,
+          "specificulture": "en-us"
+        }
+      ],
+      "isExportData": true,
+      "isClone": false,
+      "cultures": [
+        {
+          "id": 1,
+          "specificulture": "en-us",
+          "lcid": null,
+          "alias": null,
+          "fullName": "United States - English",
+          "description": "United States - English",
+          "icon": "flag-icon-us",
+          "isSupported": true
+        }
+      ],
+      "priority": 0,
+      "specificulture": "en-us"
+    },
+    {
+      "id": 3,
+      "template": "Pages/_Search.cshtml",
+      "thumbnail": null,
+      "image": "assets/img/bgs/search.jpg",
+      "icon": null,
+      "cssClass": null,
+      "layout": "Masters/_Default",
+      "title": "Search",
+      "excerpt": null,
+      "content": null,
+      "seoName": "search",
+      "seoTitle": "search",
+      "seoDescription": "search",
+      "seoKeywords": "search",
+      "source": null,
+      "views": null,
+      "type": 8,
+      "status": 2,
+      "createdDateTime": "2019-07-13T01:09:08.173",
+      "updatedDateTime": null,
+      "createdBy": "admin",
+      "tags": null,
+      "staticUrl": null,
+      "level": 0,
+      "lastModified": "2019-07-13T01:41:41.72",
+      "modifiedBy": null,
+      "pageSize": null,
+      "moduleNavs": [],
+      "urlAliases": [
+        {
+          "id": 3,
+          "sourceId": "3",
+          "type": 0,
+          "description": null,
+          "status": 2,
+          "alias": "search",
+          "createdDateTime": "2019-12-21T07:12:36.073",
+          "isClone": false,
+          "cultures": [
+            {
+              "id": 1,
+              "specificulture": "en-us",
+              "lcid": null,
+              "alias": null,
+              "fullName": "United States - English",
+              "description": "United States - English",
+              "icon": "flag-icon-us",
+              "isSupported": true
+            }
+          ],
+          "priority": 0,
+          "specificulture": "en-us"
+        }
+      ],
+      "isExportData": true,
+      "isClone": false,
+      "cultures": [
+        {
+          "id": 1,
+          "specificulture": "en-us",
+          "lcid": null,
+          "alias": null,
+          "fullName": "United States - English",
+          "description": "United States - English",
+          "icon": "flag-icon-us",
+          "isSupported": true
+        }
+      ],
+      "priority": 0,
+      "specificulture": "en-us"
+    },
+    {
+      "id": 4,
+      "template": "Pages/_Blank.cshtml",
+      "thumbnail": null,
+      "image": "assets/img/bgs/404.jpg",
+      "icon": null,
+      "cssClass": null,
+      "layout": "Masters/_Blank",
+      "title": "404",
+      "excerpt": null,
+      "content": null,
+      "seoName": "404",
+      "seoTitle": "404",
+      "seoDescription": "404",
+      "seoKeywords": "404",
+      "source": null,
+      "views": null,
+      "type": 8,
+      "status": 2,
+      "createdDateTime": "2019-07-13T01:09:08.177",
+      "updatedDateTime": null,
+      "createdBy": "admin",
+      "tags": null,
+      "staticUrl": null,
+      "level": 0,
+      "lastModified": "2019-07-13T01:43:50.107",
+      "modifiedBy": null,
+      "pageSize": null,
+      "moduleNavs": [],
+      "urlAliases": [
+        {
+          "id": 4,
+          "sourceId": "4",
+          "type": 0,
+          "description": null,
+          "status": 2,
+          "alias": "404",
+          "createdDateTime": "2019-12-21T07:12:36.073",
+          "isClone": false,
+          "cultures": [
+            {
+              "id": 1,
+              "specificulture": "en-us",
+              "lcid": null,
+              "alias": null,
+              "fullName": "United States - English",
+              "description": "United States - English",
+              "icon": "flag-icon-us",
+              "isSupported": true
+            }
+          ],
+          "priority": 0,
+          "specificulture": "en-us"
+        }
+      ],
+      "isExportData": true,
+      "isClone": false,
+      "cultures": [
+        {
+          "id": 1,
+          "specificulture": "en-us",
+          "lcid": null,
+          "alias": null,
+          "fullName": "United States - English",
+          "description": "United States - English",
+          "icon": "flag-icon-us",
+          "isSupported": true
+        }
+      ],
+      "priority": 0,
+      "specificulture": "en-us"
+    },
+    {
+      "id": 5,
+      "template": "Pages/_Blank.cshtml",
+      "thumbnail": null,
+      "image": "assets/img/bgs/403.png",
+      "icon": null,
+      "cssClass": null,
+      "layout": "Masters/_Blank",
+      "title": "403",
+      "excerpt": null,
+      "content": null,
+      "seoName": "403",
+      "seoTitle": "403",
+      "seoDescription": "403",
+      "seoKeywords": "403",
+      "source": null,
+      "views": null,
+      "type": 8,
+      "status": 2,
+      "createdDateTime": "2019-07-13T01:09:08.177",
+      "updatedDateTime": null,
+      "createdBy": "admin",
+      "tags": null,
+      "staticUrl": null,
+      "level": 0,
+      "lastModified": "2019-07-13T01:44:08.35",
+      "modifiedBy": null,
+      "pageSize": null,
+      "moduleNavs": [],
+      "urlAliases": [
+        {
+          "id": 5,
+          "sourceId": "5",
+          "type": 0,
+          "description": null,
+          "status": 2,
+          "alias": "403",
+          "createdDateTime": "2019-12-21T07:12:36.077",
+          "isClone": false,
+          "cultures": [
+            {
+              "id": 1,
+              "specificulture": "en-us",
+              "lcid": null,
+              "alias": null,
+              "fullName": "United States - English",
+              "description": "United States - English",
+              "icon": "flag-icon-us",
+              "isSupported": true
+            }
+          ],
+          "priority": 0,
+          "specificulture": "en-us"
+        }
+      ],
+      "isExportData": true,
+      "isClone": false,
+      "cultures": [
+        {
+          "id": 1,
+          "specificulture": "en-us",
+          "lcid": null,
+          "alias": null,
+          "fullName": "United States - English",
+          "description": "United States - English",
+          "icon": "flag-icon-us",
+          "isSupported": true
+        }
+      ],
+      "priority": 0,
+      "specificulture": "en-us"
+    },
+    {
+      "id": 6,
+      "template": "Pages/_Blank.cshtml",
+      "thumbnail": null,
+      "image": "assets/img/bgs/500.png",
+      "icon": null,
+      "cssClass": null,
+      "layout": "Masters/_Blank",
+      "title": "500",
+      "excerpt": null,
+      "content": null,
+      "seoName": "500",
+      "seoTitle": "500",
+      "seoDescription": "500",
+      "seoKeywords": "500",
+      "source": null,
+      "views": null,
+      "type": 8,
+      "status": 2,
+      "createdDateTime": "2019-07-13T01:09:08.177",
+      "updatedDateTime": null,
+      "createdBy": "admin",
+      "tags": null,
+      "staticUrl": null,
+      "level": 0,
+      "lastModified": "2019-07-13T01:46:15.697",
+      "modifiedBy": null,
+      "pageSize": null,
+      "moduleNavs": [],
+      "urlAliases": [
+        {
+          "id": 6,
+          "sourceId": "6",
+          "type": 0,
+          "description": null,
+          "status": 2,
+          "alias": "500",
+          "createdDateTime": "2019-12-21T07:12:36.077",
+          "isClone": false,
+          "cultures": [
+            {
+              "id": 1,
+              "specificulture": "en-us",
+              "lcid": null,
+              "alias": null,
+              "fullName": "United States - English",
+              "description": "United States - English",
+              "icon": "flag-icon-us",
+              "isSupported": true
+            }
+          ],
+          "priority": 0,
+          "specificulture": "en-us"
+        }
+      ],
+      "isExportData": true,
+      "isClone": false,
+      "cultures": [
+        {
+          "id": 1,
+          "specificulture": "en-us",
+          "lcid": null,
+          "alias": null,
+          "fullName": "United States - English",
+          "description": "United States - English",
+          "icon": "flag-icon-us",
+          "isSupported": true
+        }
+      ],
+      "priority": 0,
+      "specificulture": "en-us"
+    },
+    {
+      "id": 7,
+      "template": "Pages/_Blank.cshtml",
+      "thumbnail": null,
+      "image": "assets/img/bgs/Maintenance.jpg",
+      "icon": null,
+      "cssClass": null,
+      "layout": "Masters/_Blank",
+      "title": "Maintenance",
+      "excerpt": null,
+      "content": null,
+      "seoName": "maintenance",
+      "seoTitle": "maintenance",
+      "seoDescription": "maintenance",
+      "seoKeywords": "maintenance",
+      "source": null,
+      "views": null,
+      "type": 8,
+      "status": 2,
+      "createdDateTime": "2019-07-13T01:09:08.18",
+      "updatedDateTime": null,
+      "createdBy": "admin",
+      "tags": null,
+      "staticUrl": null,
+      "level": 0,
+      "lastModified": "2019-07-13T01:43:34.65",
+      "modifiedBy": null,
+      "pageSize": null,
+      "moduleNavs": [],
+      "urlAliases": [
+        {
+          "id": 7,
+          "sourceId": "7",
+          "type": 0,
+          "description": null,
+          "status": 2,
+          "alias": "maintenance",
+          "createdDateTime": "2019-12-21T07:12:36.08",
+          "isClone": false,
+          "cultures": [
+            {
+              "id": 1,
+              "specificulture": "en-us",
+              "lcid": null,
+              "alias": null,
+              "fullName": "United States - English",
+              "description": "United States - English",
+              "icon": "flag-icon-us",
+              "isSupported": true
+            }
+          ],
+          "priority": 0,
+          "specificulture": "en-us"
+        }
+      ],
+      "isExportData": true,
+      "isClone": false,
+      "cultures": [
+        {
+          "id": 1,
+          "specificulture": "en-us",
+          "lcid": null,
+          "alias": null,
+          "fullName": "United States - English",
+          "description": "United States - English",
+          "icon": "flag-icon-us",
+          "isSupported": true
+        }
+      ],
+      "priority": 0,
+      "specificulture": "en-us"
+    },
+    {
+      "id": 8,
+      "template": "Pages/Blog.cshtml",
+      "thumbnail": null,
+      "image": null,
+      "icon": null,
+      "cssClass": null,
+      "layout": "Masters/_Layout",
+      "title": "Blog",
+      "excerpt": "Hello to my blog!",
+      "content": "This is main blog page",
+      "seoName": "blog",
+      "seoTitle": "Blog",
+      "seoDescription": "blog",
+      "seoKeywords": "Blog",
+      "source": null,
+      "views": null,
+      "type": 2,
+      "status": 2,
+      "createdDateTime": "2019-12-24T05:20:10.48",
+      "updatedDateTime": null,
+      "createdBy": "admin",
+      "tags": null,
+      "staticUrl": null,
+      "level": 0,
+      "lastModified": "2020-01-08T12:02:53.887",
+      "modifiedBy": null,
+      "pageSize": 6,
+      "moduleNavs": [],
+      "urlAliases": [],
+      "isExportData": true,
+      "isClone": false,
+      "cultures": [
+        {
+          "id": 1,
+          "specificulture": "en-us",
+          "lcid": null,
+          "alias": null,
+          "fullName": "United States - English",
+          "description": "United States - English",
+          "icon": "flag-icon-us",
+          "isSupported": true
+        }
+      ],
+      "priority": 1,
+      "specificulture": "en-us"
+    },
+    {
+      "id": 9,
+      "template": "Pages/PWA_Index.cshtml",
+      "thumbnail": null,
+      "image": null,
+      "icon": null,
+      "cssClass": "main-content-container container-fluid px-4",
+      "layout": "Masters/_Layout_PWA",
+      "title": "PWA - Initial Screen",
+      "excerpt": null,
+      "content": null,
+      "seoName": "pwa",
+      "seoTitle": "PWA",
+      "seoDescription": "pwa",
+      "seoKeywords": "PWA",
+      "source": null,
+      "views": null,
+      "type": 0,
+      "status": 2,
+      "createdDateTime": "2019-12-26T13:10:12.34",
+      "updatedDateTime": null,
+      "createdBy": "admin",
+      "tags": null,
+      "staticUrl": null,
+      "level": 0,
+      "lastModified": "2020-01-02T17:20:52.683",
+      "modifiedBy": null,
+      "pageSize": 20,
+      "moduleNavs": [],
+      "urlAliases": [],
+      "isExportData": true,
+      "isClone": false,
+      "cultures": [
+        {
+          "id": 1,
+          "specificulture": "en-us",
+          "lcid": null,
+          "alias": null,
+          "fullName": "United States - English",
+          "description": "United States - English",
+          "icon": "flag-icon-us",
+          "isSupported": true
+        }
+      ],
+      "priority": 2,
+      "specificulture": "en-us"
+    },
+    {
+      "id": 10,
+      "template": "Pages/PWA_Google_Map.cshtml",
+      "thumbnail": null,
+      "image": null,
+      "icon": null,
+      "cssClass": "main-content-container-fullscreen container-fluid p-0",
+      "layout": "Masters/_Layout_Vue",
+      "title": "PWA - Google Map",
+      "excerpt": null,
+      "content": null,
+      "seoName": "pwa-google-map",
+      "seoTitle": "PWA - Google Map",
+      "seoDescription": "pwa--google-map",
+      "seoKeywords": "PWA - Google Map",
+      "source": null,
+      "views": null,
+      "type": 0,
+      "status": 2,
+      "createdDateTime": "2019-12-26T13:29:54.957",
+      "updatedDateTime": null,
+      "createdBy": "admin",
+      "tags": null,
+      "staticUrl": null,
+      "level": 0,
+      "lastModified": "2020-01-09T03:53:43.46",
+      "modifiedBy": null,
+      "pageSize": 20,
+      "moduleNavs": [],
+      "urlAliases": [],
+      "isExportData": true,
+      "isClone": false,
+      "cultures": [
+        {
+          "id": 1,
+          "specificulture": "en-us",
+          "lcid": null,
+          "alias": null,
+          "fullName": "United States - English",
+          "description": "United States - English",
+          "icon": "flag-icon-us",
+          "isSupported": true
+        }
+      ],
+      "priority": 3,
+      "specificulture": "en-us"
+    }
+  ],
+  "modules": [
+    {
+      "id": 4,
+      "name": "features",
+      "image": null,
+      "thumbnail": null,
+      "template": "Modules/Feature-3.cshtml",
+      "formTemplate": "Forms/_Default.cshtml",
+      "edmTemplate": "Edms/_Default.cshtml",
+      "title": "Features",
+      "description": "",
+      "fields": "[{\"name\":\"title\",\"title\":\"Title\",\"defaultValue\":null,\"options\":[],\"priority\":0,\"dataType\":7,\"isUnique\":false,\"isRequired\":true,\"isDisplay\":true,\"isSelect\":false,\"isGroupBy\":false,\"width\":3},{\"name\":\"category\",\"title\":\"Category\",\"defaultValue\":null,\"options\":[],\"priority\":0,\"dataType\":7,\"isUnique\":false,\"isRequired\":false,\"isDisplay\":false,\"isSelect\":false,\"isGroupBy\":false,\"width\":3},{\"name\":\"description\",\"title\":\"Description\",\"defaultValue\":null,\"options\":[],\"priority\":0,\"dataType\":9,\"isUnique\":false,\"isRequired\":false,\"isDisplay\":false,\"isSelect\":false,\"isGroupBy\":false,\"width\":3},{\"name\":\"icon\",\"title\":\"Icon\",\"defaultValue\":null,\"options\":[\"now-ui-icons objects_globe\",\"now-ui-icons education_atom\",\"now-ui-icons tech_watch-time\"],\"priority\":0,\"dataType\":19,\"isUnique\":false,\"isRequired\":false,\"isDisplay\":true,\"isSelect\":true,\"isGroupBy\":false,\"width\":3},{\"name\":\"color\",\"title\":\"Color\",\"defaultValue\":null,\"options\":[\"success\",\"info\",\"warning\",\"danger\"],\"priority\":0,\"dataType\":7,\"isUnique\":false,\"isRequired\":false,\"isDisplay\":true,\"isSelect\":true,\"isGroupBy\":false,\"width\":3}]",
+      "type": 1,
+      "status": 2,
+      "pageSize": null,
+      "lastModified": "2019-12-21T07:13:08.303",
+      "createdDateTime": "2019-12-21T07:13:08.303",
+      "createdBy": null,
+      "modifiedBy": null,
+      "data": {
+        "items": [
+          {
+            "id": "3168062a-af74-4318-80bc-9a2d4e90d3a0",
+            "moduleId": 4,
+            "postId": null,
+            "productId": null,
+            "pageId": null,
+            "createdDateTime": "2019-12-21T07:13:08.537",
+            "updatedDateTime": "2019-12-21T07:13:08.537",
+            "dataProperties": [
+              {
+                "name": "title",
+                "title": "Title",
+                "isUnique": false,
+                "isRequired": true,
+                "dataType": 7,
+                "value": null,
+                "isDisplay": true,
+                "isSelect": false,
+                "isGroupBy": false,
+                "options": []
+              },
+              {
+                "name": "category",
+                "title": "Category",
+                "isUnique": false,
+                "isRequired": false,
+                "dataType": 7,
+                "value": null,
+                "isDisplay": false,
+                "isSelect": false,
+                "isGroupBy": false,
+                "options": []
+              },
+              {
+                "name": "description",
+                "title": "Description",
+                "isUnique": false,
+                "isRequired": false,
+                "dataType": 9,
+                "value": null,
+                "isDisplay": false,
+                "isSelect": false,
+                "isGroupBy": false,
+                "options": []
+              },
+              {
+                "name": "icon",
+                "title": "Icon",
+                "isUnique": false,
+                "isRequired": false,
+                "dataType": 19,
+                "value": null,
+                "isDisplay": true,
+                "isSelect": true,
+                "isGroupBy": false,
+                "options": [
+                  "now-ui-icons objects_globe",
+                  "now-ui-icons education_atom",
+                  "now-ui-icons tech_watch-time"
+                ]
+              },
+              {
+                "name": "color",
+                "title": "Color",
+                "isUnique": false,
+                "isRequired": false,
+                "dataType": 7,
+                "value": null,
+                "isDisplay": true,
+                "isSelect": true,
+                "isGroupBy": false,
+                "options": [
+                  "success",
+                  "info",
+                  "warning",
+                  "danger"
+                ]
+              }
+            ],
+            "jItem": {
+              "title": {
+                "dataType": 7,
+                "value": "Asset Management"
+              },
+              "category": {
+                "dataType": 7,
+                "value": null
+              },
+              "description": {
+                "dataType": 9,
+                "value": "Cross-account dashboards provide sophisticated reporting for enterprise."
+              },
+              "icon": {
+                "dataType": 19,
+                "value": "now-ui-icons objects_globe"
+              },
+              "color": {
+                "dataType": 7,
+                "value": "success"
+              }
+            },
+            "isClone": false,
+            "cultures": null,
+            "priority": 0,
+            "specificulture": "en-us"
+          },
+          {
+            "id": "9bb6e9f8-1db6-4472-9a81-978c2b8f637c",
+            "moduleId": 4,
+            "postId": null,
+            "productId": null,
+            "pageId": null,
+            "createdDateTime": "2019-12-21T07:13:08.703",
+            "updatedDateTime": "2019-12-21T07:13:08.703",
+            "dataProperties": [
+              {
+                "name": "title",
+                "title": "Title",
+                "isUnique": false,
+                "isRequired": true,
+                "dataType": 7,
+                "value": null,
+                "isDisplay": true,
+                "isSelect": false,
+                "isGroupBy": false,
+                "options": []
+              },
+              {
+                "name": "category",
+                "title": "Category",
+                "isUnique": false,
+                "isRequired": false,
+                "dataType": 7,
+                "value": null,
+                "isDisplay": false,
+                "isSelect": false,
+                "isGroupBy": false,
+                "options": []
+              },
+              {
+                "name": "description",
+                "title": "Description",
+                "isUnique": false,
+                "isRequired": false,
+                "dataType": 9,
+                "value": null,
+                "isDisplay": false,
+                "isSelect": false,
+                "isGroupBy": false,
+                "options": []
+              },
+              {
+                "name": "icon",
+                "title": "Icon",
+                "isUnique": false,
+                "isRequired": false,
+                "dataType": 19,
+                "value": null,
+                "isDisplay": true,
+                "isSelect": true,
+                "isGroupBy": false,
+                "options": [
+                  "now-ui-icons objects_globe",
+                  "now-ui-icons education_atom",
+                  "now-ui-icons tech_watch-time"
+                ]
+              },
+              {
+                "name": "color",
+                "title": "Color",
+                "isUnique": false,
+                "isRequired": false,
+                "dataType": 7,
+                "value": null,
+                "isDisplay": true,
+                "isSelect": true,
+                "isGroupBy": false,
+                "options": [
+                  "success",
+                  "info",
+                  "warning",
+                  "danger"
+                ]
+              }
+            ],
+            "jItem": {
+              "title": {
+                "dataType": 7,
+                "value": "Resource Utilization"
+              },
+              "category": {
+                "dataType": 7,
+                "value": null
+              },
+              "description": {
+                "dataType": 9,
+                "value": "CloudCheckr provides summary and detailed usage statistics for resources."
+              },
+              "icon": {
+                "dataType": 19,
+                "value": "now-ui-icons education_atom"
+              },
+              "color": {
+                "dataType": 7,
+                "value": "info"
+              }
+            },
+            "isClone": false,
+            "cultures": null,
+            "priority": 0,
+            "specificulture": "en-us"
+          },
+          {
+            "id": "a91a9f3f-fb9b-4d4e-ba94-25a671550842",
+            "moduleId": 4,
+            "postId": null,
+            "productId": null,
+            "pageId": null,
+            "createdDateTime": "2019-12-21T07:13:08.83",
+            "updatedDateTime": "2019-12-21T07:13:08.83",
+            "dataProperties": [
+              {
+                "name": "title",
+                "title": "Title",
+                "isUnique": false,
+                "isRequired": true,
+                "dataType": 7,
+                "value": null,
+                "isDisplay": true,
+                "isSelect": false,
+                "isGroupBy": false,
+                "options": []
+              },
+              {
+                "name": "category",
+                "title": "Category",
+                "isUnique": false,
+                "isRequired": false,
+                "dataType": 7,
+                "value": null,
+                "isDisplay": false,
+                "isSelect": false,
+                "isGroupBy": false,
+                "options": []
+              },
+              {
+                "name": "description",
+                "title": "Description",
+                "isUnique": false,
+                "isRequired": false,
+                "dataType": 9,
+                "value": null,
+                "isDisplay": false,
+                "isSelect": false,
+                "isGroupBy": false,
+                "options": []
+              },
+              {
+                "name": "icon",
+                "title": "Icon",
+                "isUnique": false,
+                "isRequired": false,
+                "dataType": 19,
+                "value": null,
+                "isDisplay": true,
+                "isSelect": true,
+                "isGroupBy": false,
+                "options": [
+                  "now-ui-icons objects_globe",
+                  "now-ui-icons education_atom",
+                  "now-ui-icons tech_watch-time"
+                ]
+              },
+              {
+                "name": "color",
+                "title": "Color",
+                "isUnique": false,
+                "isRequired": false,
+                "dataType": 7,
+                "value": null,
+                "isDisplay": true,
+                "isSelect": true,
+                "isGroupBy": false,
+                "options": [
+                  "success",
+                  "info",
+                  "warning",
+                  "danger"
+                ]
+              }
+            ],
+            "jItem": {
+              "title": {
+                "dataType": 7,
+                "value": "Self-Healing"
+              },
+              "category": {
+                "dataType": 7,
+                "value": null
+              },
+              "description": {
+                "dataType": 9,
+                "value": "CloudCheckr enables users to save money, time, and effort."
+              },
+              "icon": {
+                "dataType": 19,
+                "value": "now-ui-icons tech_watch-time"
+              },
+              "color": {
+                "dataType": 7,
+                "value": "danger"
+              }
+            },
+            "isClone": false,
+            "cultures": null,
+            "priority": 0,
+            "specificulture": "en-us"
+          }
+        ],
+        "jsonItems": [
+          {
+            "title": {
+              "dataType": 7,
+              "value": "Asset Management"
+            },
+            "category": {
+              "dataType": 7,
+              "value": null
+            },
+            "description": {
+              "dataType": 9,
+              "value": "Cross-account dashboards provide sophisticated reporting for enterprise."
+            },
+            "icon": {
+              "dataType": 19,
+              "value": "now-ui-icons objects_globe"
+            },
+            "color": {
+              "dataType": 7,
+              "value": "success"
+            }
+          },
+          {
+            "title": {
+              "dataType": 7,
+              "value": "Resource Utilization"
+            },
+            "category": {
+              "dataType": 7,
+              "value": null
+            },
+            "description": {
+              "dataType": 9,
+              "value": "CloudCheckr provides summary and detailed usage statistics for resources."
+            },
+            "icon": {
+              "dataType": 19,
+              "value": "now-ui-icons education_atom"
+            },
+            "color": {
+              "dataType": 7,
+              "value": "info"
+            }
+          },
+          {
+            "title": {
+              "dataType": 7,
+              "value": "Self-Healing"
+            },
+            "category": {
+              "dataType": 7,
+              "value": null
+            },
+            "description": {
+              "dataType": 9,
+              "value": "CloudCheckr enables users to save money, time, and effort."
+            },
+            "icon": {
+              "dataType": 19,
+              "value": "now-ui-icons tech_watch-time"
+            },
+            "color": {
+              "dataType": 7,
+              "value": "danger"
+            }
+          }
+        ],
+        "pageIndex": 0,
+        "page": 1,
+        "pageSize": 3,
+        "totalItems": 3,
+        "totalPage": 1
+      },
+      "postId": null,
+      "pageId": 0,
+      "isExportData": true,
+      "isClone": false,
+      "cultures": null,
+      "priority": 17,
+      "specificulture": "en-us"
+    },
+    {
+      "id": 5,
+      "name": "products",
+      "image": null,
+      "thumbnail": null,
+      "template": "Modules/Products.cshtml",
+      "formTemplate": "Forms/_Default.cshtml",
+      "edmTemplate": "Edms/_Default.cshtml",
+      "title": "Products",
+      "description": "",
+      "fields": "[{\"name\":\"title\",\"title\":\"Title\",\"defaultValue\":null,\"options\":[],\"priority\":0,\"dataType\":7,\"isUnique\":false,\"isRequired\":false,\"isDisplay\":true,\"isSelect\":false,\"isGroupBy\":false,\"width\":3},{\"name\":\"category\",\"title\":\"Category\",\"defaultValue\":null,\"options\":[],\"priority\":0,\"dataType\":7,\"isUnique\":false,\"isRequired\":false,\"isDisplay\":true,\"isSelect\":false,\"isGroupBy\":false,\"width\":3},{\"name\":\"image\",\"title\":\"Image\",\"defaultValue\":null,\"options\":[],\"priority\":0,\"dataType\":16,\"isUnique\":false,\"isRequired\":false,\"isDisplay\":true,\"isSelect\":false,\"isGroupBy\":false,\"width\":3},{\"name\":\"excerpt\",\"title\":\"Excerpt\",\"defaultValue\":null,\"options\":[],\"priority\":0,\"dataType\":9,\"isUnique\":false,\"isRequired\":false,\"isDisplay\":false,\"isSelect\":false,\"isGroupBy\":false,\"width\":3},{\"name\":\"body\",\"title\":\"Body\",\"defaultValue\":null,\"options\":[],\"priority\":0,\"dataType\":8,\"isUnique\":false,\"isRequired\":false,\"isDisplay\":false,\"isSelect\":false,\"isGroupBy\":false,\"width\":3}]",
+      "type": 1,
+      "status": 2,
+      "pageSize": null,
+      "lastModified": "2019-12-21T07:13:09.06",
+      "createdDateTime": "2019-12-21T07:13:09.06",
+      "createdBy": null,
+      "modifiedBy": null,
+      "data": {
+        "items": [
+          {
+            "id": "b414306e-ebb6-47a4-829c-f41a489ecdf1",
+            "moduleId": 5,
+            "postId": null,
+            "productId": null,
+            "pageId": null,
+            "createdDateTime": "2019-12-21T07:13:09.21",
+            "updatedDateTime": "2019-12-21T07:13:09.21",
+            "dataProperties": [
+              {
+                "name": "title",
+                "title": "Title",
+                "isUnique": false,
+                "isRequired": false,
+                "dataType": 7,
+                "value": null,
+                "isDisplay": true,
+                "isSelect": false,
+                "isGroupBy": false,
+                "options": []
+              },
+              {
+                "name": "category",
+                "title": "Category",
+                "isUnique": false,
+                "isRequired": false,
+                "dataType": 7,
+                "value": null,
+                "isDisplay": true,
+                "isSelect": false,
+                "isGroupBy": false,
+                "options": []
+              },
+              {
+                "name": "image",
+                "title": "Image",
+                "isUnique": false,
+                "isRequired": false,
+                "dataType": 16,
+                "value": null,
+                "isDisplay": true,
+                "isSelect": false,
+                "isGroupBy": false,
+                "options": []
+              },
+              {
+                "name": "excerpt",
+                "title": "Excerpt",
+                "isUnique": false,
+                "isRequired": false,
+                "dataType": 9,
+                "value": null,
+                "isDisplay": false,
+                "isSelect": false,
+                "isGroupBy": false,
+                "options": []
+              },
+              {
+                "name": "body",
+                "title": "Body",
+                "isUnique": false,
+                "isRequired": false,
+                "dataType": 8,
+                "value": null,
+                "isDisplay": false,
+                "isSelect": false,
+                "isGroupBy": false,
+                "options": []
+              }
+            ],
+            "jItem": {
+              "title": {
+                "dataType": 7,
+                "value": "Mixcore Cms"
+              },
+              "category": {
+                "dataType": 7,
+                "value": null
+              },
+              "image": {
+                "dataType": 16,
+                "value": "/assets/img/bgs/celebrate.jpg"
+              },
+              "excerpt": {
+                "dataType": 9,
+                "value": "mixcore is a free, open source, community-focused Content Management System (CMS) built on the ASP.NET Core | Dotnet Core platform software you can use to create a beautiful website, blog, forum, or app."
+              },
+              "body": {
+                "dataType": 8,
+                "value": "<p><span style=\"background-color: var(--bg-color,hsla(var(--primary-color-hue,211),var(--primary-color-saturation,100%),100%,1)); color: var(--text-color,#212529); font-size: 1rem;\">Mixcore CMS</span><br></p><p>\n</p><p>Tutorials\n</p><p>Demo: <a href=\"http://dev.mixcore.org\" target=\"_blank\">http://dev.mixcore.org</a>\n</p><p>Docs: <a href=\"https://docs.mixcore.org\" target=\"_blank\">https://docs.mixcore.org</a>\n</p><p>Youtube: <a href=\"https://www.youtube.com/channel/UChqzh6JnC8HBUSQ9AWIcZAw\" target=\"_blank\">https://www.youtube.com/channel/UChqzh6JnC8HBUSQ9AWIcZAw</a>\n</p><p>Twitter: <a href=\"https://twitter.com/mixcore_cms\" target=\"_blank\">https://twitter.com/mixcore_cms</a>\n</p><p>GITs clone\n</p><p>mkdir mixcore\n</p><p>cd mixcore\n</p><p>\n</p><p>git clone https://github.com/mixcore/mix.heart.git\n</p><p>git clone https://github.com/mixcore/mix.identity.git\n</p><p>git clone https://github.com/mixcore/mix.core.git</p>"
+              }
+            },
+            "isClone": false,
+            "cultures": null,
+            "priority": 0,
+            "specificulture": "en-us"
+          }
+        ],
+        "jsonItems": [
+          {
+            "title": {
+              "dataType": 7,
+              "value": "Mixcore Cms"
+            },
+            "category": {
+              "dataType": 7,
+              "value": null
+            },
+            "image": {
+              "dataType": 16,
+              "value": "/assets/img/bgs/celebrate.jpg"
+            },
+            "excerpt": {
+              "dataType": 9,
+              "value": "mixcore is a free, open source, community-focused Content Management System (CMS) built on the ASP.NET Core | Dotnet Core platform software you can use to create a beautiful website, blog, forum, or app."
+            },
+            "body": {
+              "dataType": 8,
+              "value": "<p><span style=\"background-color: var(--bg-color,hsla(var(--primary-color-hue,211),var(--primary-color-saturation,100%),100%,1)); color: var(--text-color,#212529); font-size: 1rem;\">Mixcore CMS</span><br></p><p>\n</p><p>Tutorials\n</p><p>Demo: <a href=\"http://dev.mixcore.org\" target=\"_blank\">http://dev.mixcore.org</a>\n</p><p>Docs: <a href=\"https://docs.mixcore.org\" target=\"_blank\">https://docs.mixcore.org</a>\n</p><p>Youtube: <a href=\"https://www.youtube.com/channel/UChqzh6JnC8HBUSQ9AWIcZAw\" target=\"_blank\">https://www.youtube.com/channel/UChqzh6JnC8HBUSQ9AWIcZAw</a>\n</p><p>Twitter: <a href=\"https://twitter.com/mixcore_cms\" target=\"_blank\">https://twitter.com/mixcore_cms</a>\n</p><p>GITs clone\n</p><p>mkdir mixcore\n</p><p>cd mixcore\n</p><p>\n</p><p>git clone https://github.com/mixcore/mix.heart.git\n</p><p>git clone https://github.com/mixcore/mix.identity.git\n</p><p>git clone https://github.com/mixcore/mix.core.git</p>"
+            }
+          }
+        ],
+        "pageIndex": 0,
+        "page": 1,
+        "pageSize": 1,
+        "totalItems": 1,
+        "totalPage": 1
+      },
+      "postId": null,
+      "pageId": 0,
+      "isExportData": true,
+      "isClone": false,
+      "cultures": null,
+      "priority": 18,
+      "specificulture": "en-us"
+    },
+    {
+      "id": 6,
+      "name": "banners",
+      "image": null,
+      "thumbnail": null,
+      "template": "Modules/Banners.cshtml",
+      "formTemplate": "Forms/_Default.cshtml",
+      "edmTemplate": "Edms/_Default.cshtml",
+      "title": "Banners",
+      "description": null,
+      "fields": "[{\"name\":\"title\",\"title\":\"Title\",\"defaultValue\":null,\"options\":[],\"priority\":0,\"dataType\":7,\"isUnique\":false,\"isRequired\":false,\"isDisplay\":true,\"isSelect\":false,\"isGroupBy\":false,\"width\":3},{\"name\":\"description\",\"title\":\"Description\",\"defaultValue\":null,\"options\":[],\"priority\":0,\"dataType\":8,\"isUnique\":false,\"isRequired\":false,\"isDisplay\":false,\"isSelect\":false,\"isGroupBy\":false,\"width\":3},{\"name\":\"url\",\"title\":\"Url\",\"defaultValue\":null,\"options\":[],\"priority\":0,\"dataType\":7,\"isUnique\":false,\"isRequired\":false,\"isDisplay\":false,\"isSelect\":false,\"isGroupBy\":false,\"width\":3},{\"name\":\"image\",\"title\":\"Image\",\"defaultValue\":null,\"options\":[],\"priority\":0,\"dataType\":16,\"isUnique\":false,\"isRequired\":false,\"isDisplay\":true,\"isSelect\":false,\"isGroupBy\":false,\"width\":3},{\"name\":\"image_mobile\",\"title\":\"Image Mobile\",\"defaultValue\":null,\"options\":[],\"priority\":0,\"dataType\":16,\"isUnique\":false,\"isRequired\":false,\"isDisplay\":true,\"isSelect\":false,\"isGroupBy\":false,\"width\":3}]",
+      "type": 1,
+      "status": 2,
+      "pageSize": 4,
+      "lastModified": "2018-11-25T13:15:53.3",
+      "createdDateTime": "2019-12-21T07:13:11.107",
+      "createdBy": null,
+      "modifiedBy": null,
+      "data": {
+        "items": [
+          {
+            "id": "252835da-fb28-43ed-b3fc-16de53fc76be",
+            "moduleId": 6,
+            "postId": null,
+            "productId": null,
+            "pageId": null,
+            "createdDateTime": "2019-12-21T07:13:11.233",
+            "updatedDateTime": "2019-12-21T07:13:11.237",
+            "dataProperties": [
+              {
+                "name": "title",
+                "title": "Title",
+                "isUnique": false,
+                "isRequired": false,
+                "dataType": 7,
+                "value": null,
+                "isDisplay": true,
+                "isSelect": false,
+                "isGroupBy": false,
+                "options": []
+              },
+              {
+                "name": "description",
+                "title": "Description",
+                "isUnique": false,
+                "isRequired": false,
+                "dataType": 8,
+                "value": null,
+                "isDisplay": false,
+                "isSelect": false,
+                "isGroupBy": false,
+                "options": []
+              },
+              {
+                "name": "url",
+                "title": "Url",
+                "isUnique": false,
+                "isRequired": false,
+                "dataType": 7,
+                "value": null,
+                "isDisplay": false,
+                "isSelect": false,
+                "isGroupBy": false,
+                "options": []
+              },
+              {
+                "name": "image",
+                "title": "Image",
+                "isUnique": false,
+                "isRequired": false,
+                "dataType": 16,
+                "value": null,
+                "isDisplay": true,
+                "isSelect": false,
+                "isGroupBy": false,
+                "options": []
+              },
+              {
+                "name": "image_mobile",
+                "title": "Image Mobile",
+                "isUnique": false,
+                "isRequired": false,
+                "dataType": 16,
+                "value": null,
+                "isDisplay": true,
+                "isSelect": false,
+                "isGroupBy": false,
+                "options": []
+              }
+            ],
+            "jItem": {
+              "title": {
+                "dataType": 7,
+                "value": null
+              },
+              "description": {
+                "dataType": 8,
+                "value": null
+              },
+              "url": {
+                "dataType": 7,
+                "value": null
+              },
+              "image": {
+                "dataType": 16,
+                "value": "/assets/img/bgs/search.jpg"
+              },
+              "image_mobile": {
+                "dataType": 16,
+                "value": "/assets/img/bgs/search.jpg"
+              }
+            },
+            "isClone": false,
+            "cultures": null,
+            "priority": 0,
+            "specificulture": "en-us"
+          },
+          {
+            "id": "3e9e9d63-b1c4-4bd8-9e92-17130c384eef",
+            "moduleId": 6,
+            "postId": null,
+            "productId": null,
+            "pageId": null,
+            "createdDateTime": "2019-12-21T07:13:11.307",
+            "updatedDateTime": "2019-12-21T07:13:11.307",
+            "dataProperties": [
+              {
+                "name": "title",
+                "title": "Title",
+                "isUnique": false,
+                "isRequired": false,
+                "dataType": 7,
+                "value": null,
+                "isDisplay": true,
+                "isSelect": false,
+                "isGroupBy": false,
+                "options": []
+              },
+              {
+                "name": "description",
+                "title": "Description",
+                "isUnique": false,
+                "isRequired": false,
+                "dataType": 8,
+                "value": null,
+                "isDisplay": false,
+                "isSelect": false,
+                "isGroupBy": false,
+                "options": []
+              },
+              {
+                "name": "url",
+                "title": "Url",
+                "isUnique": false,
+                "isRequired": false,
+                "dataType": 7,
+                "value": null,
+                "isDisplay": false,
+                "isSelect": false,
+                "isGroupBy": false,
+                "options": []
+              },
+              {
+                "name": "image",
+                "title": "Image",
+                "isUnique": false,
+                "isRequired": false,
+                "dataType": 16,
+                "value": null,
+                "isDisplay": true,
+                "isSelect": false,
+                "isGroupBy": false,
+                "options": []
+              },
+              {
+                "name": "image_mobile",
+                "title": "Image Mobile",
+                "isUnique": false,
+                "isRequired": false,
+                "dataType": 16,
+                "value": null,
+                "isDisplay": true,
+                "isSelect": false,
+                "isGroupBy": false,
+                "options": []
+              }
+            ],
+            "jItem": {
+              "title": {
+                "dataType": 7,
+                "value": null
+              },
+              "description": {
+                "dataType": 8,
+                "value": null
+              },
+              "url": {
+                "dataType": 7,
+                "value": null
+              },
+              "image": {
+                "dataType": 16,
+                "value": "/assets/img/bgs/celebrate.jpg"
+              },
+              "image_mobile": {
+                "dataType": 16,
+                "value": "/assets/img/bgs/celebrate.jpg"
+              }
+            },
+            "isClone": false,
+            "cultures": null,
+            "priority": 0,
+            "specificulture": "en-us"
+          }
+        ],
+        "jsonItems": [
+          {
+            "title": {
+              "dataType": 7,
+              "value": null
+            },
+            "description": {
+              "dataType": 8,
+              "value": null
+            },
+            "url": {
+              "dataType": 7,
+              "value": null
+            },
+            "image": {
+              "dataType": 16,
+              "value": "/assets/img/bgs/search.jpg"
+            },
+            "image_mobile": {
+              "dataType": 16,
+              "value": "/assets/img/bgs/search.jpg"
+            }
+          },
+          {
+            "title": {
+              "dataType": 7,
+              "value": null
+            },
+            "description": {
+              "dataType": 8,
+              "value": null
+            },
+            "url": {
+              "dataType": 7,
+              "value": null
+            },
+            "image": {
+              "dataType": 16,
+              "value": "/assets/img/bgs/celebrate.jpg"
+            },
+            "image_mobile": {
+              "dataType": 16,
+              "value": "/assets/img/bgs/celebrate.jpg"
+            }
+          }
+        ],
+        "pageIndex": 0,
+        "page": 1,
+        "pageSize": 2,
+        "totalItems": 2,
+        "totalPage": 1
+      },
+      "postId": null,
+      "pageId": 0,
+      "isExportData": true,
+      "isClone": false,
+      "cultures": null,
+      "priority": 4,
+      "specificulture": "en-us"
+    },
+    {
+      "id": 7,
+      "name": "social",
+      "image": "assets/img/image_placeholder.jpg",
+      "thumbnail": "/assets/img/image_placeholder.jpg",
+      "template": "Modules/Socials.cshtml",
+      "formTemplate": "Forms/_Default.cshtml",
+      "edmTemplate": "Edms/_Default.cshtml",
+      "title": "Social",
+      "description": null,
+      "fields": "[{\"name\":\"uri\",\"title\":\"Uri\",\"defaultValue\":null,\"options\":[],\"priority\":0,\"dataType\":7,\"isUnique\":false,\"isRequired\":false,\"isDisplay\":true,\"isSelect\":false,\"isGroupBy\":false,\"width\":3},{\"name\":\"icon\",\"title\":\"Icon\",\"defaultValue\":null,\"options\":[\"fab fa-facebook\",\"fab fa-twitter\",\"fab fa-instagram\",\"fab fa-youtube\",\"fab fa-dribbble\"],\"priority\":0,\"dataType\":19,\"isUnique\":false,\"isRequired\":false,\"isDisplay\":true,\"isSelect\":true,\"isGroupBy\":false,\"width\":3},{\"name\":\"title\",\"title\":\"Title\",\"defaultValue\":null,\"options\":[],\"priority\":0,\"dataType\":7,\"isUnique\":false,\"isRequired\":false,\"isDisplay\":true,\"isSelect\":false,\"isGroupBy\":false,\"width\":3},{\"name\":\"description\",\"title\":\"Description\",\"defaultValue\":null,\"options\":[],\"priority\":0,\"dataType\":7,\"isUnique\":false,\"isRequired\":false,\"isDisplay\":false,\"isSelect\":false,\"isGroupBy\":false,\"width\":3}]",
+      "type": 1,
+      "status": 2,
+      "pageSize": null,
+      "lastModified": "2018-11-25T13:08:46.607",
+      "createdDateTime": "2019-12-21T07:13:11.393",
+      "createdBy": null,
+      "modifiedBy": null,
+      "data": {
+        "items": [
+          {
+            "id": "3f26c36f-d2e2-4c1e-996c-f6cd99e12287",
+            "moduleId": 7,
+            "postId": null,
+            "productId": null,
+            "pageId": null,
+            "createdDateTime": "2019-12-21T07:13:11.493",
+            "updatedDateTime": "2019-12-21T07:13:11.493",
+            "dataProperties": [
+              {
+                "name": "uri",
+                "title": "Uri",
+                "isUnique": false,
+                "isRequired": false,
+                "dataType": 7,
+                "value": null,
+                "isDisplay": true,
+                "isSelect": false,
+                "isGroupBy": false,
+                "options": []
+              },
+              {
+                "name": "icon",
+                "title": "Icon",
+                "isUnique": false,
+                "isRequired": false,
+                "dataType": 19,
+                "value": null,
+                "isDisplay": true,
+                "isSelect": true,
+                "isGroupBy": false,
+                "options": [
+                  "fab fa-facebook",
+                  "fab fa-twitter",
+                  "fab fa-instagram",
+                  "fab fa-youtube",
+                  "fab fa-dribbble"
+                ]
+              },
+              {
+                "name": "title",
+                "title": "Title",
+                "isUnique": false,
+                "isRequired": false,
+                "dataType": 7,
+                "value": null,
+                "isDisplay": true,
+                "isSelect": false,
+                "isGroupBy": false,
+                "options": []
+              },
+              {
+                "name": "description",
+                "title": "Description",
+                "isUnique": false,
+                "isRequired": false,
+                "dataType": 7,
+                "value": null,
+                "isDisplay": false,
+                "isSelect": false,
+                "isGroupBy": false,
+                "options": []
+              }
+            ],
+            "jItem": {
+              "url": {
+                "dataType": 7,
+                "value": "https://www.youtube.com/channel/UChqzh6JnC8HBUSQ9AWIcZAw"
+              },
+              "icon": {
+                "dataType": 19,
+                "value": "fab fa-youtube"
+              },
+              "title": {
+                "dataType": 7,
+                "value": "Youtube"
+              },
+              "description": {
+                "dataType": 7,
+                "value": "Youtube"
+              },
+              "uri": {
+                "dataType": 7,
+                "value": null
+              }
+            },
+            "isClone": false,
+            "cultures": null,
+            "priority": 0,
+            "specificulture": "en-us"
+          },
+          {
+            "id": "6c15fd69-54e1-4345-8653-4ba757ce39bc",
+            "moduleId": 7,
+            "postId": null,
+            "productId": null,
+            "pageId": null,
+            "createdDateTime": "2019-12-22T09:45:33.51",
+            "updatedDateTime": null,
+            "dataProperties": [
+              {
+                "name": "uri",
+                "title": "Uri",
+                "isUnique": false,
+                "isRequired": false,
+                "dataType": 7,
+                "value": null,
+                "isDisplay": true,
+                "isSelect": false,
+                "isGroupBy": false,
+                "options": []
+              },
+              {
+                "name": "icon",
+                "title": "Icon",
+                "isUnique": false,
+                "isRequired": false,
+                "dataType": 19,
+                "value": null,
+                "isDisplay": true,
+                "isSelect": true,
+                "isGroupBy": false,
+                "options": [
+                  "fab fa-facebook",
+                  "fab fa-twitter",
+                  "fab fa-instagram",
+                  "fab fa-youtube",
+                  "fab fa-dribbble"
+                ]
+              },
+              {
+                "name": "title",
+                "title": "Title",
+                "isUnique": false,
+                "isRequired": false,
+                "dataType": 7,
+                "value": null,
+                "isDisplay": true,
+                "isSelect": false,
+                "isGroupBy": false,
+                "options": []
+              },
+              {
+                "name": "description",
+                "title": "Description",
+                "isUnique": false,
+                "isRequired": false,
+                "dataType": 7,
+                "value": null,
+                "isDisplay": false,
+                "isSelect": false,
+                "isGroupBy": false,
+                "options": []
+              }
+            ],
+            "jItem": {
+              "uri": {
+                "dataType": 7,
+                "value": "https://dribbble.com/"
+              },
+              "icon": {
+                "dataType": 19,
+                "value": "fab fa-dribbble"
+              },
+              "title": {
+                "dataType": 7,
+                "value": "dribbble"
+              },
+              "description": {
+                "dataType": 7,
+                "value": null
+              }
+            },
+            "isClone": false,
+            "cultures": null,
+            "priority": 0,
+            "specificulture": "en-us"
+          },
+          {
+            "id": "a01becae-e5d4-4bf8-9cb9-d77584be2eb9",
+            "moduleId": 7,
+            "postId": null,
+            "productId": null,
+            "pageId": null,
+            "createdDateTime": "2019-12-22T09:43:42.857",
+            "updatedDateTime": "2019-12-22T09:44:59.537",
+            "dataProperties": [
+              {
+                "name": "uri",
+                "title": "Uri",
+                "isUnique": false,
+                "isRequired": false,
+                "dataType": 7,
+                "value": null,
+                "isDisplay": true,
+                "isSelect": false,
+                "isGroupBy": false,
+                "options": []
+              },
+              {
+                "name": "icon",
+                "title": "Icon",
+                "isUnique": false,
+                "isRequired": false,
+                "dataType": 19,
+                "value": null,
+                "isDisplay": true,
+                "isSelect": true,
+                "isGroupBy": false,
+                "options": [
+                  "fab fa-facebook",
+                  "fab fa-twitter",
+                  "fab fa-instagram",
+                  "fab fa-youtube",
+                  "fab fa-dribbble"
+                ]
+              },
+              {
+                "name": "title",
+                "title": "Title",
+                "isUnique": false,
+                "isRequired": false,
+                "dataType": 7,
+                "value": null,
+                "isDisplay": true,
+                "isSelect": false,
+                "isGroupBy": false,
+                "options": []
+              },
+              {
+                "name": "description",
+                "title": "Description",
+                "isUnique": false,
+                "isRequired": false,
+                "dataType": 7,
+                "value": null,
+                "isDisplay": false,
+                "isSelect": false,
+                "isGroupBy": false,
+                "options": []
+              }
+            ],
+            "jItem": {
+              "uri": {
+                "dataType": 7,
+                "value": "https://twitter.com/mix.core"
+              },
+              "icon": {
+                "dataType": 19,
+                "value": "fab fa-twitter"
+              },
+              "title": {
+                "dataType": 7,
+                "value": "Twitter"
+              },
+              "description": {
+                "dataType": 7,
+                "value": null
+              }
+            },
+            "isClone": false,
+            "cultures": null,
+            "priority": 0,
+            "specificulture": "en-us"
+          },
+          {
+            "id": "f558a0ad-533d-459c-b0e2-214c6587947e",
+            "moduleId": 7,
+            "postId": null,
+            "productId": null,
+            "pageId": null,
+            "createdDateTime": "2019-12-21T07:13:11.557",
+            "updatedDateTime": "2019-12-22T09:24:26.12",
+            "dataProperties": [
+              {
+                "name": "uri",
+                "title": "Uri",
+                "isUnique": false,
+                "isRequired": false,
+                "dataType": 7,
+                "value": null,
+                "isDisplay": true,
+                "isSelect": false,
+                "isGroupBy": false,
+                "options": []
+              },
+              {
+                "name": "icon",
+                "title": "Icon",
+                "isUnique": false,
+                "isRequired": false,
+                "dataType": 19,
+                "value": null,
+                "isDisplay": true,
+                "isSelect": true,
+                "isGroupBy": false,
+                "options": [
+                  "fab fa-facebook",
+                  "fab fa-twitter",
+                  "fab fa-instagram",
+                  "fab fa-youtube",
+                  "fab fa-dribbble"
+                ]
+              },
+              {
+                "name": "title",
+                "title": "Title",
+                "isUnique": false,
+                "isRequired": false,
+                "dataType": 7,
+                "value": null,
+                "isDisplay": true,
+                "isSelect": false,
+                "isGroupBy": false,
+                "options": []
+              },
+              {
+                "name": "description",
+                "title": "Description",
+                "isUnique": false,
+                "isRequired": false,
+                "dataType": 7,
+                "value": null,
+                "isDisplay": false,
+                "isSelect": false,
+                "isGroupBy": false,
+                "options": []
+              }
+            ],
+            "jItem": {
+              "url": {
+                "dataType": 7,
+                "value": "https://www.facebook.com/"
+              },
+              "icon": {
+                "dataType": 19,
+                "value": "fab fa-facebook"
+              },
+              "title": {
+                "dataType": 7,
+                "value": "Facebook"
+              },
+              "description": {
+                "dataType": 7,
+                "value": "Facebook"
+              },
+              "uri": {
+                "dataType": 7,
+                "value": "https://www.facebook.com/mix.core"
+              }
+            },
+            "isClone": false,
+            "cultures": null,
+            "priority": 0,
+            "specificulture": "en-us"
+          },
+          {
+            "id": "fecc49c9-84e4-4561-8dc4-4b3e7bf9238c",
+            "moduleId": 7,
+            "postId": null,
+            "productId": null,
+            "pageId": null,
+            "createdDateTime": "2019-12-21T07:13:11.637",
+            "updatedDateTime": "2019-12-22T09:24:09.447",
+            "dataProperties": [
+              {
+                "name": "uri",
+                "title": "Uri",
+                "isUnique": false,
+                "isRequired": false,
+                "dataType": 7,
+                "value": null,
+                "isDisplay": true,
+                "isSelect": false,
+                "isGroupBy": false,
+                "options": []
+              },
+              {
+                "name": "icon",
+                "title": "Icon",
+                "isUnique": false,
+                "isRequired": false,
+                "dataType": 19,
+                "value": null,
+                "isDisplay": true,
+                "isSelect": true,
+                "isGroupBy": false,
+                "options": [
+                  "fab fa-facebook",
+                  "fab fa-twitter",
+                  "fab fa-instagram",
+                  "fab fa-youtube",
+                  "fab fa-dribbble"
+                ]
+              },
+              {
+                "name": "title",
+                "title": "Title",
+                "isUnique": false,
+                "isRequired": false,
+                "dataType": 7,
+                "value": null,
+                "isDisplay": true,
+                "isSelect": false,
+                "isGroupBy": false,
+                "options": []
+              },
+              {
+                "name": "description",
+                "title": "Description",
+                "isUnique": false,
+                "isRequired": false,
+                "dataType": 7,
+                "value": null,
+                "isDisplay": false,
+                "isSelect": false,
+                "isGroupBy": false,
+                "options": []
+              }
+            ],
+            "jItem": {
+              "url": {
+                "dataType": 7,
+                "value": "https://github.com/mixcore/mix.core"
+              },
+              "icon": {
+                "dataType": 19,
+                "value": "fab fa-github"
+              },
+              "title": {
+                "dataType": 7,
+                "value": "GitHub"
+              },
+              "description": {
+                "dataType": 7,
+                "value": "GitHub"
+              },
+              "uri": {
+                "dataType": 7,
+                "value": "https://github.com/mixcore"
+              }
+            },
+            "isClone": false,
+            "cultures": null,
+            "priority": 0,
+            "specificulture": "en-us"
+          }
+        ],
+        "jsonItems": [
+          {
+            "url": {
+              "dataType": 7,
+              "value": "https://www.youtube.com/channel/UChqzh6JnC8HBUSQ9AWIcZAw"
+            },
+            "icon": {
+              "dataType": 19,
+              "value": "fab fa-youtube"
+            },
+            "title": {
+              "dataType": 7,
+              "value": "Youtube"
+            },
+            "description": {
+              "dataType": 7,
+              "value": "Youtube"
+            },
+            "uri": {
+              "dataType": 7,
+              "value": null
+            }
+          },
+          {
+            "uri": {
+              "dataType": 7,
+              "value": "https://dribbble.com/"
+            },
+            "icon": {
+              "dataType": 19,
+              "value": "fab fa-dribbble"
+            },
+            "title": {
+              "dataType": 7,
+              "value": "dribbble"
+            },
+            "description": {
+              "dataType": 7,
+              "value": null
+            }
+          },
+          {
+            "uri": {
+              "dataType": 7,
+              "value": "https://twitter.com/mix.core"
+            },
+            "icon": {
+              "dataType": 19,
+              "value": "fab fa-twitter"
+            },
+            "title": {
+              "dataType": 7,
+              "value": "Twitter"
+            },
+            "description": {
+              "dataType": 7,
+              "value": null
+            }
+          },
+          {
+            "url": {
+              "dataType": 7,
+              "value": "https://www.facebook.com/"
+            },
+            "icon": {
+              "dataType": 19,
+              "value": "fab fa-facebook"
+            },
+            "title": {
+              "dataType": 7,
+              "value": "Facebook"
+            },
+            "description": {
+              "dataType": 7,
+              "value": "Facebook"
+            },
+            "uri": {
+              "dataType": 7,
+              "value": "https://www.facebook.com/mix.core"
+            }
+          },
+          {
+            "url": {
+              "dataType": 7,
+              "value": "https://github.com/mixcore/mix.core"
+            },
+            "icon": {
+              "dataType": 19,
+              "value": "fab fa-github"
+            },
+            "title": {
+              "dataType": 7,
+              "value": "GitHub"
+            },
+            "description": {
+              "dataType": 7,
+              "value": "GitHub"
+            },
+            "uri": {
+              "dataType": 7,
+              "value": "https://github.com/mixcore"
+            }
+          }
+        ],
+        "pageIndex": 0,
+        "page": 1,
+        "pageSize": 5,
+        "totalItems": 5,
+        "totalPage": 1
+      },
+      "postId": null,
+      "pageId": 0,
+      "isExportData": true,
+      "isClone": false,
+      "cultures": null,
+      "priority": 2,
+      "specificulture": "en-us"
+    }
+  ],
+  "attributeSets": [
+    {
+      "id": 1,
+      "ReferenceId": null,
+      "type": 0,
+      "title": "Menu Item",
+      "name": "sys_menu_item",
+      "description": null,
+      "formTemplate": "Forms/Get_In_Touch.cshtml",
+      "edmTemplate": "Edms/_Default.cshtml",
+      "edmSubject": null,
+      "edmFrom": null,
+      "edmAutoSend": null,
+      "createdDateTime": "2019-12-21T07:12:38.373",
+      "status": 2,
+      "fields": [
+        {
+          "id": 1,
+          "attributeSetId": 1,
+          "attributeSetName": "sys_menu_item",
+          "referenceId": null,
+          "regex": null,
+          "title": "Title",
+          "dataType": 7,
+          "defaultValue": null,
+          "options": null,
+          "name": "title",
+          "isRequire": true,
+          "isEncrypt": false,
+          "isSelect": false,
+          "isUnique": false,
+          "status": 2,
+          "createdDateTime": "2019-11-02T04:54:35.07",
+          "isClone": false,
+          "cultures": null,
+          "priority": 0,
+          "specificulture": null
+        },
+        {
+          "id": 2,
+          "attributeSetId": 1,
+          "attributeSetName": "sys_menu_item",
+          "referenceId": null,
+          "regex": null,
+          "title": "Uri",
+          "dataType": 7,
+          "defaultValue": null,
+          "options": null,
+          "name": "uri",
+          "isRequire": true,
+          "isEncrypt": false,
+          "isSelect": false,
+          "isUnique": false,
+          "status": 2,
+          "createdDateTime": "2019-11-02T04:54:35.24",
+          "isClone": false,
+          "cultures": null,
+          "priority": 1,
+          "specificulture": null
+        },
+        {
+          "id": 27,
+          "attributeSetId": 1,
+          "attributeSetName": "sys_menu_item",
+          "referenceId": null,
+          "regex": null,
+          "title": "Icon",
+          "dataType": 19,
+          "defaultValue": null,
+          "options": [],
+          "name": "icon",
+          "isRequire": false,
+          "isEncrypt": false,
+          "isSelect": false,
+          "isUnique": false,
+          "status": 2,
+          "createdDateTime": "2019-12-21T08:18:12.13",
+          "isClone": false,
+          "cultures": null,
+          "priority": 2,
+          "specificulture": null
+        },
+        {
+          "id": 13,
+          "attributeSetId": 1,
+          "attributeSetName": "sys_menu_item",
+          "referenceId": null,
+          "regex": null,
+          "title": "Type",
+          "dataType": 7,
+          "defaultValue": "Uri",
+          "options": [
+            {
+              "value": "Uri",
+              "dataType": 7
+            },
+            {
+              "value": "Page",
+              "dataType": 7
+            },
+            {
+              "value": "Post",
+              "dataType": 7
+            }
+          ],
+          "name": "type",
+          "isRequire": false,
+          "isEncrypt": false,
+          "isSelect": true,
+          "isUnique": false,
+          "status": 2,
+          "createdDateTime": "2019-11-09T05:56:45.447",
+          "isClone": false,
+          "cultures": null,
+          "priority": 3,
+          "specificulture": null
+        },
+        {
+          "id": 10,
+          "attributeSetId": 1,
+          "attributeSetName": "sys_menu_item",
+          "referenceId": null,
+          "regex": null,
+          "title": "Target",
+          "dataType": 7,
+          "defaultValue": "_top",
+          "options": [
+            {
+              "value": "_blank",
+              "dataType": 7
+            },
+            {
+              "value": "_self",
+              "dataType": 7
+            },
+            {
+              "value": "_parent",
+              "dataType": 7
+            },
+            {
+              "value": "_top",
+              "dataType": 7
+            },
+            {
+              "value": "framename",
+              "dataType": 7
+            }
+          ],
+          "name": "target",
+          "isRequire": false,
+          "isEncrypt": false,
+          "isSelect": true,
+          "isUnique": false,
+          "status": 2,
+          "createdDateTime": "2019-11-09T04:59:07.743",
+          "isClone": false,
+          "cultures": null,
+          "priority": 4,
+          "specificulture": null
+        },
+        {
+          "id": 11,
+          "attributeSetId": 1,
+          "attributeSetName": "sys_menu_item",
+          "referenceId": null,
+          "regex": null,
+          "title": "Classes",
+          "dataType": 7,
+          "defaultValue": null,
+          "options": null,
+          "name": "classes",
+          "isRequire": false,
+          "isEncrypt": false,
+          "isSelect": false,
+          "isUnique": false,
+          "status": 2,
+          "createdDateTime": "2019-11-09T04:59:07.793",
+          "isClone": false,
+          "cultures": null,
+          "priority": 5,
+          "specificulture": null
+        },
+        {
+          "id": 12,
+          "attributeSetId": 1,
+          "attributeSetName": "sys_menu_item",
+          "referenceId": null,
+          "regex": null,
+          "title": "Description",
+          "dataType": 9,
+          "defaultValue": null,
+          "options": null,
+          "name": "description",
+          "isRequire": false,
+          "isEncrypt": false,
+          "isSelect": false,
+          "isUnique": false,
+          "status": 2,
+          "createdDateTime": "2019-11-09T04:59:07.83",
+          "isClone": false,
+          "cultures": null,
+          "priority": 6,
+          "specificulture": null
+        },
+        {
+          "id": 24,
+          "attributeSetId": 1,
+          "attributeSetName": "sys_menu_item",
+          "referenceId": 1,
+          "regex": null,
+          "title": "Menu Items",
+          "dataType": 23,
+          "defaultValue": null,
+          "options": null,
+          "name": "menu_items",
+          "isRequire": false,
+          "isEncrypt": false,
+          "isSelect": false,
+          "isUnique": false,
+          "status": 2,
+          "createdDateTime": "2019-12-17T13:29:02.05",
+          "isClone": false,
+          "cultures": null,
+          "priority": 7,
+          "specificulture": null
+        },
+        {
+          "id": 37,
+          "attributeSetId": 1,
+          "attributeSetName": null,
+          "referenceId": null,
+          "regex": null,
+          "title": "Alt",
+          "dataType": 7,
+          "defaultValue": null,
+          "options": [],
+          "name": "alt",
+          "isRequire": false,
+          "isEncrypt": false,
+          "isSelect": false,
+          "isUnique": false,
+          "status": 2,
+          "createdDateTime": "2020-01-02T11:47:33.04",
+          "isClone": false,
+          "cultures": null,
+          "priority": 9,
+          "specificulture": null
+        },
+        {
+          "id": 38,
+          "attributeSetId": 1,
+          "attributeSetName": null,
+          "referenceId": null,
+          "regex": null,
+          "title": "Hreflang",
+          "dataType": 7,
+          "defaultValue": null,
+          "options": [],
+          "name": "hreflang",
+          "isRequire": false,
+          "isEncrypt": false,
+          "isSelect": false,
+          "isUnique": false,
+          "status": 2,
+          "createdDateTime": "2020-01-02T11:47:33.09",
+          "isClone": false,
+          "cultures": null,
+          "priority": 10,
+          "specificulture": null
+        },
+        {
+          "id": 41,
+          "attributeSetId": 1,
+          "attributeSetName": null,
+          "referenceId": null,
+          "regex": null,
+          "title": "Rel",
+          "dataType": 7,
+          "defaultValue": null,
+          "options": [
+            {
+              "value": "next",
+              "dataType": 7
+            },
+            {
+              "value": "nofollow",
+              "dataType": 7
+            },
+            {
+              "value": "noreferrer",
+              "dataType": 7
+            },
+            {
+              "value": "prev",
+              "dataType": 7
+            }
+          ],
+          "name": "rel",
+          "isRequire": false,
+          "isEncrypt": false,
+          "isSelect": true,
+          "isUnique": false,
+          "status": 2,
+          "createdDateTime": "2020-01-02T13:07:26.583",
+          "isClone": false,
+          "cultures": null,
+          "priority": 10,
+          "specificulture": null
+        }
+      ],
+      "isExportData": true,
+      "isClone": false,
+      "cultures": null,
+      "priority": 0,
+      "specificulture": null
+    },
+    {
+      "id": 2,
+      "ReferenceId": null,
+      "type": 0,
+      "title": "Navigation",
+      "name": "sys_navigation",
+      "description": null,
+      "formTemplate": "Forms/Get_In_Touch.cshtml",
+      "edmTemplate": "Edms/_Default.cshtml",
+      "edmSubject": null,
+      "edmFrom": null,
+      "edmAutoSend": null,
+      "createdDateTime": "2019-12-21T07:12:39.187",
+      "status": 0,
+      "fields": [
+        {
+          "id": 25,
+          "attributeSetId": 2,
+          "attributeSetName": "sys_navigation",
+          "referenceId": null,
+          "regex": null,
+          "title": "Title",
+          "dataType": 7,
+          "defaultValue": null,
+          "options": [],
+          "name": "title",
+          "isRequire": true,
+          "isEncrypt": false,
+          "isSelect": false,
+          "isUnique": false,
+          "status": 2,
+          "createdDateTime": "2019-12-21T07:12:39.303",
+          "isClone": false,
+          "cultures": null,
+          "priority": 0,
+          "specificulture": null
+        },
+        {
+          "id": 23,
+          "attributeSetId": 2,
+          "attributeSetName": "sys_navigation",
+          "referenceId": null,
+          "regex": null,
+          "title": "Name",
+          "dataType": 7,
+          "defaultValue": null,
+          "options": null,
+          "name": "name",
+          "isRequire": true,
+          "isEncrypt": false,
+          "isSelect": false,
+          "isUnique": false,
+          "status": 2,
+          "createdDateTime": "2019-12-17T13:19:42.663",
+          "isClone": false,
+          "cultures": null,
+          "priority": 1,
+          "specificulture": null
+        },
+        {
+          "id": 26,
+          "attributeSetId": 2,
+          "attributeSetName": "sys_navigation",
+          "referenceId": 1,
+          "regex": null,
+          "title": "Menu Items",
+          "dataType": 23,
+          "defaultValue": null,
+          "options": [],
+          "name": "menu_items",
+          "isRequire": false,
+          "isEncrypt": false,
+          "isSelect": false,
+          "isUnique": false,
+          "status": 2,
+          "createdDateTime": "2019-12-21T07:12:39.407",
+          "isClone": false,
+          "cultures": null,
+          "priority": 2,
+          "specificulture": null
+        }
+      ],
+      "isExportData": true,
+      "isClone": false,
+      "cultures": null,
+      "priority": 0,
+      "specificulture": null
+    },
+    {
+      "id": 3,
+      "ReferenceId": null,
+      "type": 0,
+      "title": "Page",
+      "name": "sys_additional_field_page",
+      "description": null,
+      "formTemplate": "Forms/Get_In_Touch.cshtml",
+      "edmTemplate": "Edms/_Default.cshtml",
+      "edmSubject": null,
+      "edmFrom": null,
+      "edmAutoSend": null,
+      "createdDateTime": "2019-12-21T07:12:39.437",
+      "status": 0,
+      "fields": [],
+      "isExportData": true,
+      "isClone": false,
+      "cultures": null,
+      "priority": 0,
+      "specificulture": null
+    },
+    {
+      "id": 4,
+      "ReferenceId": null,
+      "type": 0,
+      "title": "Module",
+      "name": "sys_additional_field_module",
+      "description": null,
+      "formTemplate": "Forms/Get_In_Touch.cshtml",
+      "edmTemplate": "Edms/_Default.cshtml",
+      "edmSubject": null,
+      "edmFrom": null,
+      "edmAutoSend": null,
+      "createdDateTime": "2019-12-21T07:12:39.467",
+      "status": 0,
+      "fields": null,
+      "isExportData": true,
+      "isClone": false,
+      "cultures": null,
+      "priority": 0,
+      "specificulture": null
+    },
+    {
+      "id": 5,
+      "ReferenceId": null,
+      "type": 0,
+      "title": "Post",
+      "name": "sys_additional_field_post",
+      "description": null,
+      "formTemplate": "Forms/Get_In_Touch.cshtml",
+      "edmTemplate": "Edms/_Default.cshtml",
+      "edmSubject": null,
+      "edmFrom": null,
+      "edmAutoSend": null,
+      "createdDateTime": "2019-12-21T07:12:39.503",
+      "status": 0,
+      "fields": null,
+      "isExportData": true,
+      "isClone": false,
+      "cultures": null,
+      "priority": 0,
+      "specificulture": null
+    },
+    {
+      "id": 6,
+      "ReferenceId": null,
+      "type": 0,
+      "title": "Additional Field",
+      "name": "sys_additional_field",
+      "description": null,
+      "formTemplate": "Forms/Get_In_Touch.cshtml",
+      "edmTemplate": "Edms/_Default.cshtml",
+      "edmSubject": null,
+      "edmFrom": null,
+      "edmAutoSend": null,
+      "createdDateTime": "2019-12-22T02:27:18.56",
+      "status": 0,
+      "fields": null,
+      "isExportData": true,
+      "isClone": false,
+      "cultures": null,
+      "priority": 1,
+      "specificulture": null
+    }
+  ],
+  "configurations": null,
+  "relatedData": [
+    {
+      "id": "da076aca-975e-4a89-ae8b-47c7ec26f859",
+      "parentId": "1",
+      "parentType": 4,
+      "attributeSetId": 4,
+      "createdDateTime": "2019-12-27T12:31:44.53",
+      "status": 0,
+      "description": null,
+      "isClone": false,
+      "cultures": null,
+      "priority": 0,
+      "specificulture": "en-us"
+    },
+    {
+      "id": "458e263b-fcc7-4480-a19a-510c1285fe30",
+      "parentId": "3",
+      "parentType": 4,
+      "attributeSetId": 4,
+      "createdDateTime": "2019-12-25T11:18:35.95",
+      "status": 0,
+      "description": null,
+      "isClone": false,
+      "cultures": null,
+      "priority": 0,
+      "specificulture": "en-us"
+    },
+    {
+      "id": "06ef5fd1-b654-4f61-bf31-0b9d29df6a36",
+      "parentId": "8",
+      "parentType": 4,
+      "attributeSetId": 4,
+      "createdDateTime": "2019-12-27T13:04:26.3",
+      "status": 0,
+      "description": null,
+      "isClone": false,
+      "cultures": null,
+      "priority": 0,
+      "specificulture": "en-us"
+    },
+    {
+      "id": "37abf1d6-a489-4f81-ac0a-87e95102a7e5",
+      "parentId": "1",
+      "parentType": 3,
+      "attributeSetId": 3,
+      "createdDateTime": "2020-01-01T06:06:30.577",
+      "status": 0,
+      "description": null,
+      "isClone": false,
+      "cultures": null,
+      "priority": 0,
+      "specificulture": "en-us"
+    },
+    {
+      "id": "aa782fd4-c5ab-4be8-ba56-cf26adddbfef",
+      "parentId": "8",
+      "parentType": 3,
+      "attributeSetId": 3,
+      "createdDateTime": "2020-01-05T03:01:26.49",
+      "status": 0,
+      "description": null,
+      "isClone": false,
+      "cultures": null,
+      "priority": 0,
+      "specificulture": "en-us"
+    },
+    {
+      "id": "9c83e36b-e0a0-40c7-9936-ef576baf9896",
+      "parentId": "9",
+      "parentType": 3,
+      "attributeSetId": 3,
+      "createdDateTime": "2019-12-26T13:10:13.51",
+      "status": 0,
+      "description": null,
+      "isClone": false,
+      "cultures": null,
+      "priority": 0,
+      "specificulture": "en-us"
+    },
+    {
+      "id": "b5b74da2-fce4-4ef8-803b-473bc93ce640",
+      "parentId": "10",
+      "parentType": 3,
+      "attributeSetId": 3,
+      "createdDateTime": "2019-12-26T13:29:55.56",
+      "status": 0,
+      "description": null,
+      "isClone": false,
+      "cultures": null,
+      "priority": 0,
+      "specificulture": "en-us"
+    },
+    {
+      "id": "0dc7931e-dae7-41b3-9346-77e07fb1fc84",
+      "parentId": "99d04780-c848-43e8-bac5-e3600bdb96db",
+      "parentType": 1,
+      "attributeSetId": 1,
+      "createdDateTime": "2019-12-28T02:31:46.723",
+      "status": 0,
+      "description": null,
+      "isClone": false,
+      "cultures": null,
+      "priority": 3,
+      "specificulture": "en-us"
+    },
+    {
+      "id": "2e654fb3-eab6-490b-a318-f9cda4a1cd08",
+      "parentId": "99d04780-c848-43e8-bac5-e3600bdb96db",
+      "parentType": 1,
+      "attributeSetId": 1,
+      "createdDateTime": "2019-12-28T02:30:58.397",
+      "status": 0,
+      "description": null,
+      "isClone": false,
+      "cultures": null,
+      "priority": 0,
+      "specificulture": "en-us"
+    },
+    {
+      "id": "8b66160c-52e2-477a-8df0-0c17aa2fc542",
+      "parentId": "99d04780-c848-43e8-bac5-e3600bdb96db",
+      "parentType": 1,
+      "attributeSetId": 1,
+      "createdDateTime": "2020-01-04T06:21:52.193",
+      "status": 0,
+      "description": null,
+      "isClone": false,
+      "cultures": null,
+      "priority": 1,
+      "specificulture": "en-us"
+    },
+    {
+      "id": "8d693fa7-dee0-4d0d-b621-d8a8076611e5",
+      "parentId": "99d04780-c848-43e8-bac5-e3600bdb96db",
+      "parentType": 1,
+      "attributeSetId": 1,
+      "createdDateTime": "2019-12-30T14:19:13.78",
+      "status": 0,
+      "description": null,
+      "isClone": false,
+      "cultures": null,
+      "priority": 2,
+      "specificulture": "en-us"
+    },
+    {
+      "id": "cddb4d1a-7acd-435a-b19a-f9c8949b6b5e",
+      "parentId": "99d04780-c848-43e8-bac5-e3600bdb96db",
+      "parentType": 1,
+      "attributeSetId": 1,
+      "createdDateTime": "2019-12-25T10:33:15.483",
+      "status": 0,
+      "description": null,
+      "isClone": false,
+      "cultures": null,
+      "priority": 4,
+      "specificulture": "en-us"
+    }
+  ],
+  "attributeSetDatas": [
+    {
+      "id": "da076aca-975e-4a89-ae8b-47c7ec26f859",
+      "attributeSetId": 4,
+      "attributeSetName": "sys_additional_field_module",
+      "createdDateTime": "2019-12-27T12:31:44.5",
+      "createdBy": null,
+      "status": 0,
+      "fields": [],
+      "data": {
+        "id": "da076aca-975e-4a89-ae8b-47c7ec26f859",
+        "createdDateTime": "2019-12-27T12:31:44.5"
+      },
+      "relatedData": [],
+      "isClone": false,
+      "cultures": null,
+      "priority": 0,
+      "specificulture": "en-us"
+    },
+    {
+      "id": "458e263b-fcc7-4480-a19a-510c1285fe30",
+      "attributeSetId": 4,
+      "attributeSetName": "sys_additional_field_module",
+      "createdDateTime": "2019-12-25T11:18:35.35",
+      "createdBy": null,
+      "status": 0,
+      "fields": [
+        {
+          "id": 34,
+          "attributeSetId": 6,
+          "attributeSetName": "sys_additional_field",
+          "referenceId": null,
+          "regex": null,
+          "title": "Title",
+          "dataType": 7,
+          "defaultValue": null,
+          "options": null,
+          "name": "title",
+          "isRequire": false,
+          "isEncrypt": false,
+          "isSelect": false,
+          "isUnique": false,
+          "status": 0,
+          "createdDateTime": "2019-12-25T11:18:35.473",
+          "isClone": false,
+          "cultures": null,
+          "priority": 1,
+          "specificulture": null
+        },
+        {
+          "id": 35,
+          "attributeSetId": 6,
+          "attributeSetName": "sys_additional_field",
+          "referenceId": null,
+          "regex": null,
+          "title": "Excerpt",
+          "dataType": 9,
+          "defaultValue": null,
+          "options": null,
+          "name": "excerpt",
+          "isRequire": false,
+          "isEncrypt": false,
+          "isSelect": false,
+          "isUnique": false,
+          "status": 0,
+          "createdDateTime": "2019-12-25T11:18:35.697",
+          "isClone": false,
+          "cultures": null,
+          "priority": 2,
+          "specificulture": null
+        },
+        {
+          "id": 36,
+          "attributeSetId": 6,
+          "attributeSetName": "sys_additional_field",
+          "referenceId": null,
+          "regex": null,
+          "title": "Uri",
+          "dataType": 7,
+          "defaultValue": null,
+          "options": null,
+          "name": "uri",
+          "isRequire": false,
+          "isEncrypt": false,
+          "isSelect": false,
+          "isUnique": false,
+          "status": 0,
+          "createdDateTime": "2019-12-25T11:18:35.84",
+          "isClone": false,
+          "cultures": null,
+          "priority": 3,
+          "specificulture": null
+        }
+      ],
+      "data": {
+        "id": "458e263b-fcc7-4480-a19a-510c1285fe30",
+        "createdDateTime": "2019-12-25T11:18:35.35",
+        "title": "Solutions for</br>your <strong>great ideas!</strong>",
+        "excerpt": "Creating your web from scratch with the dedicated experience development team can be very expensive. Using our solutions you don't have to worry about any enterprise technical solutions. Save time and money by focusing on the business model.",
+        "uri": "https://mixcore.org"
+      },
+      "relatedData": [],
+      "isClone": false,
+      "cultures": null,
+      "priority": 0,
+      "specificulture": "en-us"
+    },
+    {
+      "id": "06ef5fd1-b654-4f61-bf31-0b9d29df6a36",
+      "attributeSetId": 4,
+      "attributeSetName": "sys_additional_field_module",
+      "createdDateTime": "2019-12-27T13:04:26.27",
+      "createdBy": null,
+      "status": 0,
+      "fields": [],
+      "data": {
+        "id": "06ef5fd1-b654-4f61-bf31-0b9d29df6a36",
+        "createdDateTime": "2019-12-27T13:04:26.27"
+      },
+      "relatedData": [],
+      "isClone": false,
+      "cultures": null,
+      "priority": 0,
+      "specificulture": "en-us"
+    },
+    {
+      "id": "37abf1d6-a489-4f81-ac0a-87e95102a7e5",
+      "attributeSetId": 3,
+      "attributeSetName": "sys_additional_field_page",
+      "createdDateTime": "2020-01-01T06:06:30.53",
+      "createdBy": null,
+      "status": 0,
+      "fields": [],
+      "data": {
+        "id": "37abf1d6-a489-4f81-ac0a-87e95102a7e5",
+        "createdDateTime": "2020-01-01T06:06:30.53"
+      },
+      "relatedData": [],
+      "isClone": false,
+      "cultures": null,
+      "priority": 0,
+      "specificulture": "en-us"
+    },
+    {
+      "id": "aa782fd4-c5ab-4be8-ba56-cf26adddbfef",
+      "attributeSetId": 3,
+      "attributeSetName": "sys_additional_field_page",
+      "createdDateTime": "2020-01-05T03:01:26.427",
+      "createdBy": null,
+      "status": 0,
+      "fields": [],
+      "data": {
+        "id": "aa782fd4-c5ab-4be8-ba56-cf26adddbfef",
+        "createdDateTime": "2020-01-05T03:01:26.427"
+      },
+      "relatedData": [],
+      "isClone": false,
+      "cultures": null,
+      "priority": 0,
+      "specificulture": "en-us"
+    },
+    {
+      "id": "9c83e36b-e0a0-40c7-9936-ef576baf9896",
+      "attributeSetId": 3,
+      "attributeSetName": "sys_additional_field_page",
+      "createdDateTime": "2019-12-26T13:10:13.4",
+      "createdBy": null,
+      "status": 0,
+      "fields": [],
+      "data": {
+        "id": "9c83e36b-e0a0-40c7-9936-ef576baf9896",
+        "createdDateTime": "2019-12-26T13:10:13.4"
+      },
+      "relatedData": [],
+      "isClone": false,
+      "cultures": null,
+      "priority": 0,
+      "specificulture": "en-us"
+    },
+    {
+      "id": "b5b74da2-fce4-4ef8-803b-473bc93ce640",
+      "attributeSetId": 3,
+      "attributeSetName": "sys_additional_field_page",
+      "createdDateTime": "2019-12-26T13:29:55.507",
+      "createdBy": null,
+      "status": 0,
+      "fields": [],
+      "data": {
+        "id": "b5b74da2-fce4-4ef8-803b-473bc93ce640",
+        "createdDateTime": "2019-12-26T13:29:55.507"
+      },
+      "relatedData": [],
+      "isClone": false,
+      "cultures": null,
+      "priority": 0,
+      "specificulture": "en-us"
+    },
+    {
+      "id": "0dc7931e-dae7-41b3-9346-77e07fb1fc84",
+      "attributeSetId": 1,
+      "attributeSetName": "sys_menu_item",
+      "createdDateTime": "2019-12-27T13:52:32.837",
+      "createdBy": "admin",
+      "status": 0,
+      "fields": null,
+      "data": {
+        "id": "0dc7931e-dae7-41b3-9346-77e07fb1fc84",
+        "createdDateTime": "2019-12-27T13:52:32.837",
+        "title": "PWA - Google Map",
+        "uri": "/en-us/pwa-google-map",
+        "icon": "mi mi-MapDirections",
+        "type": "Page",
+        "target": "_top",
+        "classes": null,
+        "description": null,
+        "menu_items": []
+      },
+      "relatedData": [],
+      "isClone": false,
+      "cultures": null,
+      "priority": 0,
+      "specificulture": "en-us"
+    },
+    {
+      "id": "2e654fb3-eab6-490b-a318-f9cda4a1cd08",
+      "attributeSetId": 1,
+      "attributeSetName": "sys_menu_item",
+      "createdDateTime": "2019-12-25T10:39:53.393",
+      "createdBy": "admin",
+      "status": 0,
+      "fields": null,
+      "data": {
+        "id": "2e654fb3-eab6-490b-a318-f9cda4a1cd08",
+        "createdDateTime": "2019-12-25T10:39:53.393",
+        "title": "Home",
+        "uri": "/en-us/home",
+        "icon": null,
+        "type": "Page",
+        "target": "_top",
+        "classes": null,
+        "description": null,
+        "menu_items": []
+      },
+      "relatedData": [],
+      "isClone": false,
+      "cultures": null,
+      "priority": 0,
+      "specificulture": "en-us"
+    },
+    {
+      "id": "8b66160c-52e2-477a-8df0-0c17aa2fc542",
+      "attributeSetId": 1,
+      "attributeSetName": "sys_menu_item",
+      "createdDateTime": "2019-12-25T10:49:41.657",
+      "createdBy": "admin",
+      "status": 0,
+      "fields": null,
+      "data": {
+        "id": "8b66160c-52e2-477a-8df0-0c17aa2fc542",
+        "createdDateTime": "2019-12-25T10:49:41.657",
+        "title": "Document",
+        "uri": "https://docs.mixcore.org/",
+        "icon": "mi mi-dochub",
+        "type": "Uri",
+        "target": "_blank",
+        "classes": null,
+        "description": null,
+        "menu_items": [],
+        "alt": null,
+        "rel": "noreferrer",
+        "hreflang": null
+      },
+      "relatedData": [],
+      "isClone": false,
+      "cultures": null,
+      "priority": 0,
+      "specificulture": "en-us"
+    },
+    {
+      "id": "8d693fa7-dee0-4d0d-b621-d8a8076611e5",
+      "attributeSetId": 1,
+      "attributeSetName": "sys_menu_item",
+      "createdDateTime": "2019-12-30T14:19:12.767",
+      "createdBy": "admin",
+      "status": 0,
+      "fields": null,
+      "data": {
+        "id": "8d693fa7-dee0-4d0d-b621-d8a8076611e5",
+        "createdDateTime": "2019-12-30T14:19:12.767",
+        "title": "Login",
+        "uri": "/security/login?ReturnUrl=%2Fportal",
+        "icon": "mi mi-PassiveAuthentication",
+        "type": "Uri",
+        "target": "_top",
+        "classes": null,
+        "description": null,
+        "menu_items": []
+      },
+      "relatedData": [],
+      "isClone": false,
+      "cultures": null,
+      "priority": 0,
+      "specificulture": "en-us"
+    },
+    {
+      "id": "cddb4d1a-7acd-435a-b19a-f9c8949b6b5e",
+      "attributeSetId": 1,
+      "attributeSetName": "sys_menu_item",
+      "createdDateTime": "2019-12-25T10:33:14.313",
+      "createdBy": "admin",
+      "status": 0,
+      "fields": null,
+      "data": {
+        "id": "cddb4d1a-7acd-435a-b19a-f9c8949b6b5e",
+        "createdDateTime": "2019-12-25T10:33:14.313",
+        "title": "Blog",
+        "uri": "/en-us/blog",
+        "icon": null,
+        "type": "Page",
+        "target": "_top",
+        "classes": null,
+        "description": null,
+        "menu_items": []
+      },
+      "relatedData": [],
+      "isClone": false,
+      "cultures": null,
+      "priority": 0,
+      "specificulture": "en-us"
+    },
+    {
+      "id": "d8a8f17c-2ba9-4912-a27e-1f8b67ced10e",
+      "attributeSetId": 1,
+      "attributeSetName": "sys_menu_item",
+      "createdDateTime": "2019-12-27T13:55:58.977",
+      "createdBy": "admin",
+      "status": 0,
+      "fields": null,
+      "data": {
+        "id": "d8a8f17c-2ba9-4912-a27e-1f8b67ced10e",
+        "createdDateTime": "2019-12-27T13:55:58.977",
+        "title": "PWA - Initial Screen",
+        "uri": "/en-us/pwa",
+        "icon": null,
+        "type": "Page",
+        "target": "_top",
+        "classes": null,
+        "description": null,
+        "menu_items": []
+      },
+      "relatedData": [],
+      "isClone": false,
+      "cultures": null,
+      "priority": 0,
+      "specificulture": "en-us"
+    },
+    {
+      "id": "99d04780-c848-43e8-bac5-e3600bdb96db",
+      "attributeSetId": 2,
+      "attributeSetName": "sys_navigation",
+      "createdDateTime": "2019-12-25T10:32:50.707",
+      "createdBy": "admin",
+      "status": 0,
+      "fields": null,
+      "data": {
+        "id": "99d04780-c848-43e8-bac5-e3600bdb96db",
+        "createdDateTime": "2019-12-25T10:32:50.707",
+        "title": "Top",
+        "name": "top",
+        "menu_items": []
+      },
+      "relatedData": [],
+      "isClone": false,
+      "cultures": null,
+      "priority": 0,
+      "specificulture": "en-us"
+    },
+    {
+      "id": "37abf1d6-a489-4f81-ac0a-87e95102a7e5",
+      "attributeSetId": 3,
+      "attributeSetName": "sys_additional_field_page",
+      "createdDateTime": "2020-01-01T06:06:30.53",
+      "createdBy": null,
+      "status": 0,
+      "fields": null,
+      "data": {
+        "id": "37abf1d6-a489-4f81-ac0a-87e95102a7e5",
+        "createdDateTime": "2020-01-01T06:06:30.53"
+      },
+      "relatedData": [],
+      "isClone": false,
+      "cultures": null,
+      "priority": 0,
+      "specificulture": "en-us"
+    },
+    {
+      "id": "9c83e36b-e0a0-40c7-9936-ef576baf9896",
+      "attributeSetId": 3,
+      "attributeSetName": "sys_additional_field_page",
+      "createdDateTime": "2019-12-26T13:10:13.4",
+      "createdBy": null,
+      "status": 0,
+      "fields": null,
+      "data": {
+        "id": "9c83e36b-e0a0-40c7-9936-ef576baf9896",
+        "createdDateTime": "2019-12-26T13:10:13.4"
+      },
+      "relatedData": [],
+      "isClone": false,
+      "cultures": null,
+      "priority": 0,
+      "specificulture": "en-us"
+    },
+    {
+      "id": "aa782fd4-c5ab-4be8-ba56-cf26adddbfef",
+      "attributeSetId": 3,
+      "attributeSetName": "sys_additional_field_page",
+      "createdDateTime": "2020-01-05T03:01:26.427",
+      "createdBy": null,
+      "status": 0,
+      "fields": null,
+      "data": {
+        "id": "aa782fd4-c5ab-4be8-ba56-cf26adddbfef",
+        "createdDateTime": "2020-01-05T03:01:26.427"
+      },
+      "relatedData": [],
+      "isClone": false,
+      "cultures": null,
+      "priority": 0,
+      "specificulture": "en-us"
+    },
+    {
+      "id": "b5b74da2-fce4-4ef8-803b-473bc93ce640",
+      "attributeSetId": 3,
+      "attributeSetName": "sys_additional_field_page",
+      "createdDateTime": "2019-12-26T13:29:55.507",
+      "createdBy": null,
+      "status": 0,
+      "fields": null,
+      "data": {
+        "id": "b5b74da2-fce4-4ef8-803b-473bc93ce640",
+        "createdDateTime": "2019-12-26T13:29:55.507"
+      },
+      "relatedData": [],
+      "isClone": false,
+      "cultures": null,
+      "priority": 0,
+      "specificulture": "en-us"
+    }
+  ],
+  "specificulture": "en-us",
+  "themeName": "mixcore-demo"
+}
